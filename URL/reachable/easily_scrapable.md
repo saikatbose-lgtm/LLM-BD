@@ -1,5 +1,26 @@
 # Easily Scrapable (Reachable subset)
 
+## 2026-09-28 session (84-URL scheduled scraping batch)
+
+RFP listings were reviewed against the approved keyword list (IT Services / IT Staff Augmentation / Staffing / Information Technology); no meaningful matches were found on any of these 16 URLs this pass (details in the scraping run notes), so no new files were saved to `Source/Scraped/` from this batch.
+
+- https://apps.cupertino.org/details/756 — detail page loads fully without login (login only needed to download attachments); one historical/awarded RFQ found ("RFQ for Staff Augmentation Services," CIP-25RFQ02) but excluded as a keyword match — scope is Public Works/Capital Improvement Program staff augmentation (engineering/construction), not IT-related, despite "Staff Augmentation" appearing in the title.
+- https://arbuy.arkansas.gov/bso/view/login/login.xhtml — login page itself exposes a public "Open Bids" search (confirmed via the Open Bids link); 0 results at time of retrieval. Arkansas is transitioning to Ariba July 2026.
+- https://bgs.vermont.gov/purchasing — public hub page and `/purchasing/bids` both load without login; no direct RFP titles on either page, only links out to OPC listings/VTBuys.
+- https://bidlocker.us/Home/bidlockerus — public aggregator homepage listing 33 member agencies; no individual RFPs on this page itself, would need per-agency drill-down.
+- https://bidopportunities.chugachelectric.com/ — listing/title/deadline visible without login (full documents need contractor login); one open solicitation, "RFB 26-26: Chugach Janitorial Services" (not IT-related).
+- https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=GIT — Georgia Tech Research Institute solicitation listing, no login; 2 open IFBs (flight services, property-management inventory system), neither keyword-matched.
+- https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=Georgia&FromBranded=true — GA@WORK Marketplace, browsable without login; 20 of 37 results reviewed, none keyword-matched — 17 results unreviewed, needs a follow-up pagination pass.
+- https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=SUNY&FromBranded=true — 8 open SUNY solicitations browsable without login, none keyword-matched.
+- https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=UTSA&FromBranded=true — 3 open UTSA solicitations browsable without login, none keyword-matched.
+- https://dhr.alabama.gov/announcements/ — public announcements listing, page 1 of 40 reviewed (6 items, social-services solicitations, none IT-related) — 39 pages unreviewed.
+- https://ebs.pnnl.gov/advertised.aspx — Pacific Northwest National Laboratory public supplier portal; 6 advertised solicitations, none keyword-matched (construction/goods, not IT).
+- https://fayetteville-ar.ionwave.net/Login.aspx — login page links to a public Current Bids grid (`/SourcingEvents.aspx?SourceType=1`, 22 listings, no login prompt); none keyword-matched (construction/materials ITBs, one investment-management RFQ).
+- https://fayetteville-ga.ionwave.net/Login.aspx — one item returned via `/SourcingEvents.aspx?SourceType=1` despite a "login required" flag in the fetch summary (worth a manual re-check); item was fire/safety equipment, not keyword-matched.
+- https://flyri.com/riac/procurement/ — Rhode Island Airport Corporation page loads without login; solicitation tables all empty at retrieval (RIAC uses OpenGov for live bids).
+- https://garwoodnj.govoffice3.com/index.asp?SEC=2E0FA122-5AAF-4709-8370-F01AB70B1579&pri=0 — Borough of Garwood, NJ static listing page, no login; items found (legal/attorney RFP+RFQ, award notices, a general "Professional Services" RFQ with no visible IT scope, a mural-artists call), none keyword-matched.
+- https://gccisd.ionwave.net/ — Goose Creek CISD, TX; public Current Bids grid at `/SourcingEvents.aspx?SourceType=1`, 7 listings, none keyword-matched (retail goods, CTE equipment, fundraising, catering, contracted services, police/security equipment).
+
 ## 2026-09-16 session (30 URL batch)
 
 - http://njstart.gov/ (redirects to NJSTART public portal; public open-bid/advanced-search pages load without login; no new qualifying current finding saved in this pass)

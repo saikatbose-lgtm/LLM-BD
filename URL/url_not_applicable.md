@@ -14,6 +14,11 @@ These 2 entries are email addresses (`mailto:`), not web pages — not something
 - mailto:Business-development@ommincorp.com
 - mailto:business-development@ommincorp.com
 
+These 2 entries were reviewed on 2026-09-28 (84-URL scheduled scraping batch) and confirmed to have no RFP/procurement-solicitation functionality — reclassified from `url_reachable.md`.
+
+- https://apps.nasa.gov/nvdb/vendorSearch - 302-redirects to https://nasa.gov/apps, NASA's consumer mobile/desktop app download page (NASA App, Earth Now, etc.); the NVDB vendor-search endpoint appears retired. No RFP/bid functionality present at the destination.
+- https://guest.nasa.gov/ - NASA "Guest" account login/registration portal (Login.gov-style credentials, CAPTCHA on registration); no procurement, RFP, RFQ, or bid content or navigation of any kind.
+
 These 5 entries were accessible in a real browser but confirmed to have no RFP/procurement-solicitation functionality of their own — reclassified from `url_reachable.md` on 2026-09-11.
 
 - https://smart-idp.gep.com/Account/LogOn?ReturnUrl=%2f — the domain has been retired; the page only shows a "URL Sunsetting" migration notice pointing to `quantum.gep.com`, with no procurement content.

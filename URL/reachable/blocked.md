@@ -1,5 +1,92 @@
 # Blocked (Reachable subset)
 
+## 2026-09-28 session (84-URL scheduled scraping batch)
+
+Reviewed via automated fetch (no JavaScript execution, no login attempted, no CAPTCHA solved, per policy).
+
+### Login required / registration wall (no public bid list found)
+
+- http://newhavenhousing.cobblestonesystems.com/gateway/Login.aspx (CobbleStone gateway login form)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=CalState (Jaggaer login wall; "please login to view the sourcing event")
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=DASIowa (Jaggaer login wall, State of Iowa DAS)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=FSU (Jaggaer login wall, Florida State University)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=MDAndersonPS (Jaggaer login wall, MD Anderson)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=StateOfNewMexico (Jaggaer login wall, eProNM; state migrating to Euna/Bonfire ~2027)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=TAMU (Jaggaer login wall, Texas A&M AggieBid)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=TriC (Jaggaer login wall, Cuyahoga Community College)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=UConnFullSuite (Jaggaer login wall, UConn HuskyBuy)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=UIdaho (Jaggaer login wall/registration, University of Idaho)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=URI (Jaggaer login wall, University of Rhode Island)
+- https://apps.ideal-logic.com/uopcs (login wall + heavy JS dependency, University of Oregon Procurement)
+- https://bidportal.ksu.edu/Module/Tenders/en/Vendor/Dashboard/70f4d5cf-dabf-47c6-a618-3522733a7088 (login wall, bidsandtenders.com platform)
+- https://bids.wyomingmi.gov/Bid/SpecDownload/2236?fromLogin=1 (redirects to "please sign-in or Create Account")
+- https://brazosbid.ionwave.net/Login.aspx (IonWave/Euna login form; San Jacinto River Authority)
+- https://cammnet.octa.net/ (OCTA OpenGov eProcurement; "0 Items" shown without login)
+- https://claytonk12ga.bonfirehub.com/login (redirects to centralized Bonfire/Ory Kratos login)
+- https://contracts-marioncountygcc.msappproxy.net/gateway/Login.aspx (CobbleStone Contract Insight login form; page mentions a "Search Public Solicitations" nav link not resolved in this pass)
+- https://davenport.ionwave.net/Login.aspx (IonWave/Euna login form; page mentions public "Current Bids"/"Closed Bids" nav links not resolved in this pass)
+- https://dir.my.site.com/BidStamp/VIS_CustomLogin (Texas DIR BidStamp vendor login)
+- https://dmschools.ionwave.net/Vendor/VendorHome.aspx (Des Moines Public Schools, Euna IonWave)
+- https://douglascountypurchasing.ionwave.net/Login.aspx (Douglas County NE / City of Omaha, Euna IonWave)
+- https://ejbs.fa.us6.oraclecloud.com/supplierPortal/faces/FndOverview?fndGlobalItemNodeId=itemNode_supplier_portal_supplier_portal (hard redirect to Oracle IDCS OAuth2/SSO login)
+- https://emma.maryland.gov/page.aspx/en/usr/login?ReturnUrl=%2fpage.aspx%2fen%2fbuy%2fhomepage (Maryland eMMA login page; page references separate public "Public Solicitations"/"Public Contracts" links not tested — worth a follow-up on the actual public-solicitations URL)
+- https://esupplier.sonomacounty.ca.gov/psc/FN92PRD_9/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?Page=PT_LANDINGPAGE&Action=H (PeopleSoft sign-in gate)
+- https://financials.ok.gov/psc/SOKLFP1DS/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL? (PeopleSoft sign-in gate, Oklahoma)
+- https://fms-prd.ps.sc.edu/psc/FPRD/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL? (redirects to USC CAS SSO)
+- https://fscm.teamworks.georgia.gov/psc/supp/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL? (Team Georgia Marketplace PeopleSoft sign-in gate)
+- https://goodbuy.ionwave.net/Login.aspx (Goodbuy Purchasing Cooperative, Euna IonWave)
+- https://ha.internationaleprocurement.com/ (Housing Agency Marketplace / NAHRO-affiliated)
+- https://hamiltoncountyohio.gob2g.com/?TN=hamiltoncountyohio (B2Gnow vendor management platform)
+- https://hcpss.bonfirehub.com/login (redirects to Bonfire central Ory login, Howard County Public Schools)
+
+### CAPTCHA / bot-check walled (not bypassed, per policy)
+
+- https://guest.supplier.systems.state.mn.us/psc/fmssupap/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL (302-redirects to a Radware Bot Manager challenge at validate.perfdrive.com)
+
+### Cloudflare / WAF blocked (HTTP 403)
+
+- http://norta.procureware.com/login
+- https://apps.das.nh.gov/bidscontracts/bids.aspx
+- https://baltimorecounty.prismcompliance.com/
+- https://cityofbonitasprings.procureware.com/
+- https://cityofbonitasprings.procureware.com/login
+- https://cob.procureware.com/login
+- https://comet-fs.ci.minneapolis.mn.us/psc/supplier/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?&lp=ERP.SUPPLIER.EP_COSP_PUBLIC_HOME_FL (also tried base PeopleSoft URL, same result)
+- https://dmschools.procureware.com/Companies?t=Info
+
+### Broken / error pages
+
+- https://govwhitepapers.com/?utm_source=GovEvents&utm_medium=NavBar (HTTP 429 Too Many Requests on 3 separate attempts, including a retry on the bare domain with no query params — consistent rate-limiting/WAF block, not a transient blip; also questionable by name whether this is an actual procurement portal at all, rather than a government-content/whitepaper aggregator)
+- https://hacp.org/profile/business-developmentommincorp-com/ (HTTP 404 — this exact path does not exist; the base domain https://hacp.org/ IS reachable and has real procurement navigation ("Open Procurements," "Procurement Search," "Vendor Resources") — this specific stale/placeholder URL should be replaced with a corrected hacp.org procurement URL in a future pass)
+- https://health.maryland.gov/procumnt/pages/procopps.aspx?utm_source=chatgpt.com (HTTP 404, confirmed with and without the utm parameter; base domain health.maryland.gov is reachable but its homepage nav shows no procurement link from a static fetch — correct current URL not identified this pass, Maryland's statewide eMMA portal may be the right destination)
+- http://www.scsk12.org/procurement/bids (server-side PHP "Invalid numeric literal" parse error; NOTE: this URL is already listed in `easily_scrapable.md` from an earlier session via its alternate `/procurement25/?PN=232` path — today's exact URL is currently broken, flagging the discrepancy rather than removing the historical record)
+- https://baltimorecity.diversitycompliance.com/FrontPage/VendorMain.asp?XID=2708 (two fetch attempts returned completely blank content)
+- https://biddingo.com/soundtransit (page returns only the word "Biddingo," no other markup)
+- https://eprocurement.esmsolutions.com/resetpassword?Token=935c91e0-3b71-4706-88a0-2cc4dc6d5da7 (bare "ESM Purchase" title + loading spinner, nothing else; possibly an expired reset token)
+- https://esupplier.erp.delaware.gov/psc/fn92pdesup/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_REG_CMP_FL.GBL (two fetch attempts returned completely blank content)
+
+### Uncertain — JavaScript-rendered content the fetch tool could not execute (no login wall or CAPTCHA detected in the static HTML; needs a JS-capable browser re-check before final classification)
+
+All of the following are Bonfire Hub `/portal` instances except `certification-app.sbsd.virginia.gov`; the pattern (spinner placeholders under "Open/Past Public Opportunities" tabs, no auth barrier visible) was confirmed repeatedly across this platform, so future passes on other Bonfire Hub URLs should expect the same limitation with a plain fetch tool:
+
+- https://bernco.bonfirehub.com/portal/?tab=openOpportunities
+- https://bgca.bonfirehub.com/portal/?tab=openOpportunities
+- https://bouldercounty.bonfirehub.com/portal/?tab=openOpportunities
+- https://ccsd.bonfirehub.com/portal/?tab=openOpportunities
+- https://certification-app.sbsd.virginia.gov/boLogin (only page title rendered — "COV Certification Application - V2"; likely a Virginia SWaM business-certification app rather than an RFP portal at all, but unconfirmed)
+- https://ci-lubbock-tx.bonfirehub.com/portal/?tab=openOpportunities
+- https://comalisd.bonfirehub.com/portal/?tab=openOpportunities
+- https://cookcountyhealth.bonfirehub.com/portal
+- https://cookcountyil.bonfirehub.com/portal
+- https://daviefl.bonfirehub.com/portal
+- https://dfwairport.bonfirehub.com/portal/?tab=openOpportunities
+- https://ecsd.bonfirehub.ca/portal/?tab=openOpportunities
+- https://fairfaxcounty.bonfirehub.com/portal/?tab=openOpportunities
+- https://fortworthtexas.bonfirehub.com/portal/?tab=openOpportunities
+- https://ggbhtd.bonfirehub.com/portal/
+- https://habc.bonfirehub.com/portal/?tab=openOpportunities
+- https://homesa.bonfirehub.com/portal/?tab=openOpportunities
+
 ## Login / registration / session pages reviewed on 2026-09-16
 
 - http://procurement.opengov.com/ (redirects to generic OpenGov Procurement login; no agency project grid visible at this root URL)
