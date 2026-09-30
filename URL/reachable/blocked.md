@@ -354,3 +354,9 @@ Scope note: this session covered 84 of the 184 remaining unclassified `url_reach
 - https://my.alaska.gov/adfs/ls/?wa=wsignin1.0&wtrealm=https%3a%2f%2fmy.alaska.gov%2f&wctx=rm%3d0%26id%3dpassive%26ru%3d%252fPortal%252fPortal.aspx&wct=2023-11-24T17%3a55%3a54Z (HTTP 403; title: alaska.gov)
 
 Note: the Bonfire detail pages (e.g. `mps.bonfirehub.com/opportunities/*`) are behind a Cloudflare check even though listing grids load; IonWave "Current Bids" links were not opened this pass.
+
+## 2026-09-30 session 4 additions
+
+- Login required: newhavenhousing.cobblestonesystems.com, procurement.opengov.com, vendorportal.dc.gov, access.alberta.ca, account.bonfirehub.com, alabamabuys.gov (2), Jaggaer SupplierLogin/BrandedSupplierHome URLs (CalState, DASIowa, FSU, MDAndersonPS, StateOfNewMexico, TAMU, TriC, UConnFullSuite, UIdaho, URI, GIT, UMich, tmstmp variants), arbuy.arkansas.gov, baltimorecounty.prismcompliance.com, baltimorecity.diversitycompliance.com, dir.my.site.com, dmschools.ionwave, douglascountypurchasing.ionwave, emma.maryland.gov, ejbs Oracle IDCS, esupplier.sonomacounty, certification-app.sbsd.virginia.gov, claytonk12ga.bonfirehub, davenport.ionwave, bidportal.ksu.edu, bids.wyomingmi.gov
+- 403 / Cloudflare / WAF: norta.procureware.com, dmschools.procureware.com, cityofbonitasprings.procureware.com (2), cob.procureware.com, apps.das.nh.gov, comet-fs.ci.minneapolis.mn.us, esupplier.erp.delaware.gov
+- Broken/JS shell/other: scsk12.org/procurement/bids (PHP parse error), mncppc.org/register.html (redirect loop), morriscountybidsystem.com (bot challenge), apps.ideal-logic.com/uopcs, eprocurement.esmsolutions.com (reset-password page), biddingo.com/soundtransit, bidlocker.us

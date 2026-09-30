@@ -126,3 +126,7 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - https://nsc.bonfirehub.ca/portal/?tab=openOpportunities (public Bonfire listing readable without login; no approved-keyword match)
 - https://pennbid.bonfirehub.com/portal/?tab=openOpportunities (PennBid public grid readable; no directly relevant IT/staffing match)
 - https://pinalcountyaz.bonfirehub.com/portal (public Bonfire listing readable without login; no approved-keyword match)
+
+## 2026-09-30 session 4 (84-URL batch from url_reachable.md not yet re-checked today)
+
+- Bonfire/ionWave/Jaggaer public feeds read via curl: acwd, alamedahsg, alexandriava (CAD/AVL #2009 already saved), algonquincollege, alleghenycounty, allentx.ionwave, app.az.gov public RFx browse, apps.cupertino.org (staff augmentation RFQ already saved 2026-09-28), daviefl, dfwairport, ecsd, ccsd, ci-lubbock-tx, comalisd, cookcountyhealth, cookcountyil, cammnet.octa.net, contracts-marioncountygcc (SUNY list), ebs.pnnl.gov, dhr.alabama.gov, bernco, bgca, bgs.vermont.gov, bidopportunities.chugachelectric.com, bids.sciquest.com GIT, bids01.jaggaer.com Georgia/SUNY/UTSA, brazosbid.ionwave — no approved-keyword match except bouldercounty.bonfirehub.com (saved `Source/Scraped/2026-09-30_BoulderCounty-RFP-317-26-Jail-EMT-Staffing.md`; detail page Cloudflare-blocked, listing data only).
