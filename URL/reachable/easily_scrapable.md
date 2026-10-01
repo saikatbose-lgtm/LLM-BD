@@ -132,3 +132,11 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - https://www.txsmartbuy.gov/esbd — public listing page 1 re-checked 2026-09-30; one qualifying RFP saved: `Source/Scraped/2026-09-30_TX-TRS-TRS000658-AI-and-IT-Technical-Support-and-Advising-Services-RFP.md`.
 - https://apps.cupertino.org/details/756 — re-confirmed; already saved as `2026-09-28_Cupertino-RFQ-for-Staff-Augmentation-Services.md`.
 - All other URLs returned HTTP 200 but static HTML held no approved-keyword listings (Bonfire/ionwave/Jaggaer portals are JS-rendered shells; no new records saved).
+
+## 2026-10-01 session (partial re-check; cutoff 2026-10-01)
+
+- https://njstart.gov/ (25 open bids reviewed; all keyword-relevant ones already saved; T2774 Front End Mail Receipt available 2026-09-29, before cutoff — not saved)
+- https://alohaebuys.hawaii.gov/bso/view/login/login.xhtml (25 open bids reviewed; only CDPHPD Website Editor relevant, already saved)
+- https://arkansas.ionwave.net/ (8 open bids, all construction/printing/supplies — no match)
+- https://caleprocure.ca.gov/pages/Events-BS3/event-search.aspx (HTTP 403 to non-browser fetch this run; not re-checked)
+- Remaining URLs (Bonfire and other JS-rendered portals) not re-checked in this run.
