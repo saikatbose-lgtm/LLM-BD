@@ -144,3 +144,13 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - Filter for this run: issue/start date on or after 2026-09-25 (one week back) and end/closing date on or after 2026-11-02 (one month or more ahead). Keyword filter unchanged.
 - All 355 unique URLs were fetched again by plain HTTP. No qualifying RFP was found, so nothing was saved or emailed. Closest rejects: Texas ESBD "Underwriting Consulting Services" (posted 2026-09-28, due 2026-10-28), Texas ESBD "Oracle Enterprise Product License(s) and Maintenance Services" (posted 2026-08-31, due 2026-10-30), Georgia "Claims Processing and Management Services Module" (open 2026-07-16, closes 2026-10-26), and Morris County "Police Outside Duty Competitive Contract" (published 2026-10-01, closes 2026-11-18, no keyword match).
 - JavaScript-only portals (e.g. Bonfire) returned shell pages and were not verified.
+
+## 2026-10-02 second re-run (end-date buffer 10 days)
+
+- Filter for this run: issue/start date on or after 2026-09-25 and end/closing date on or after 2026-10-12. Keyword filter unchanged.
+- Re-checked the fetched listings from all 355 unique URLs. No qualifying RFP was found, so nothing was saved or emailed.
+- Closest rejects:
+  - Texas ESBD "Underwriting Consulting Services" (posted 2026-09-28, due 2026-10-28) matches only the generic phrase "Consulting Services", and the work is insurance underwriting, not a workable IT or staffing scope.
+  - Georgia "Legal and Contract Software" (eRFI, open 2026-09-30, closes 2026-10-28) matches no approved keyword.
+  - Anchorage RFP 2026P044 (due 2026-10-16) shows no issue or start date.
+- JavaScript-only portals (e.g. Bonfire) returned shell pages and were not verified.
