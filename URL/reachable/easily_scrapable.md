@@ -138,3 +138,9 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - All 355 unique URLs in `url_reachable.md` were fetched individually. Final statuses: SUCCESS 0, NO_RELEVANT_RESULTS 290 (HTTP 200), BLOCKED 52 (403/429/login redirects), FAILED 13 (404/5xx/timeout/redirect error); total 355.
 - Listings that loaded were checked for approved keywords and Issue/Start dates on or after 2026-10-01. No qualifying RFP was found, so nothing was saved or emailed. Examples checked and rejected: Morris County HR Consultant (published 2026-09-24, before the cutoff), Anchorage RFP 2026P044 Customer Information Billing System Replacement (no issue/start date on the listing), and the Chugach Electric, Rochester Housing and PNNL listings (no keyword match).
 - Fetching was done by plain HTTP without JavaScript rendering, so JS-only portals such as Bonfire returned shell pages. Their content was not verified.
+
+## 2026-10-02 re-run (user-adjusted date filter)
+
+- Filter for this run: issue/start date on or after 2026-09-25 (one week back) and end/closing date on or after 2026-11-02 (one month or more ahead). Keyword filter unchanged.
+- All 355 unique URLs were fetched again by plain HTTP. No qualifying RFP was found, so nothing was saved or emailed. Closest rejects: Texas ESBD "Underwriting Consulting Services" (posted 2026-09-28, due 2026-10-28), Texas ESBD "Oracle Enterprise Product License(s) and Maintenance Services" (posted 2026-08-31, due 2026-10-30), Georgia "Claims Processing and Management Services Module" (open 2026-07-16, closes 2026-10-26), and Morris County "Police Outside Duty Competitive Contract" (published 2026-10-01, closes 2026-11-18, no keyword match).
+- JavaScript-only portals (e.g. Bonfire) returned shell pages and were not verified.
