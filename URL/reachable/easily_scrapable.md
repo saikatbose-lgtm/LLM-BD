@@ -132,3 +132,9 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - https://www.txsmartbuy.gov/esbd — public listing page 1 re-checked 2026-09-30; one qualifying RFP saved: `Source/Scraped/2026-09-30_TX-TRS-TRS000658-AI-and-IT-Technical-Support-and-Advising-Services-RFP.md`.
 - https://apps.cupertino.org/details/756 — re-confirmed; already saved as `2026-09-28_Cupertino-RFQ-for-Staff-Augmentation-Services.md`.
 - All other URLs returned HTTP 200 but static HTML held no approved-keyword listings (Bonfire/ionwave/Jaggaer portals are JS-rendered shells; no new records saved).
+
+## 2026-10-02 automated run (cutoff 2026-10-01)
+
+- All 355 unique URLs in `url_reachable.md` were fetched individually. Final statuses: SUCCESS 0, NO_RELEVANT_RESULTS 290 (HTTP 200), BLOCKED 52 (403/429/login redirects), FAILED 13 (404/5xx/timeout/redirect error); total 355.
+- Listings that loaded were checked for approved keywords and Issue/Start dates on or after 2026-10-01. No qualifying RFP was found, so nothing was saved or emailed. Examples checked and rejected: Morris County HR Consultant (published 2026-09-24, before the cutoff), Anchorage RFP 2026P044 Customer Information Billing System Replacement (no issue/start date on the listing), and the Chugach Electric, Rochester Housing and PNNL listings (no keyword match).
+- Fetching was done by plain HTTP without JavaScript rendering, so JS-only portals such as Bonfire returned shell pages. Their content was not verified.
