@@ -132,3 +132,7 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - https://www.txsmartbuy.gov/esbd — public listing page 1 re-checked 2026-09-30; one qualifying RFP saved: `Source/Scraped/2026-09-30_TX-TRS-TRS000658-AI-and-IT-Technical-Support-and-Advising-Services-RFP.md`.
 - https://apps.cupertino.org/details/756 — re-confirmed; already saved as `2026-09-28_Cupertino-RFQ-for-Staff-Augmentation-Services.md`.
 - All other URLs returned HTTP 200 but static HTML held no approved-keyword listings (Bonfire/ionwave/Jaggaer portals are JS-rendered shells; no new records saved).
+
+## 2026-10-07 automated run
+- https://ebs.pnnl.gov/advertised.aspx — listing readable without login; saved `Source/Scraped/2026-10-02_PNNL-0000961418-Chemical-Assets-Management-Platform.md`.
+- Other portals fetched this run (279 loaded/readable via curl, 64 blocked/login/CAPTCHA-like, 12 failed); no new qualifying items found other than the PNNL record. Many portals are JavaScript-rendered, so the plain-HTTP fetch could read only static content.
