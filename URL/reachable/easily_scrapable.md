@@ -132,3 +132,7 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - https://www.txsmartbuy.gov/esbd — public listing page 1 re-checked 2026-09-30; one qualifying RFP saved: `Source/Scraped/2026-09-30_TX-TRS-TRS000658-AI-and-IT-Technical-Support-and-Advising-Services-RFP.md`.
 - https://apps.cupertino.org/details/756 — re-confirmed; already saved as `2026-09-28_Cupertino-RFQ-for-Staff-Augmentation-Services.md`.
 - All other URLs returned HTTP 200 but static HTML held no approved-keyword listings (Bonfire/ionwave/Jaggaer portals are JS-rendered shells; no new records saved).
+
+## 2026-10-08 scheduled run (HTTP-only pass over all 355 URLs)
+
+Cutoff date for this run: 2026-10-01. Every URL in `url_reachable.md` was fetched individually (curl, redirects followed). Result: SUCCESS 0 + NO_RELEVANT_RESULTS 68 + BLOCKED 273 + FAILED 14 = 355. BLOCKED = HTTP 403, login/registration wall, or JS-rendered page with no listing content in the raw response; FAILED = 404/5xx/timeout. The 68 readable pages showed no solicitation with an approved-keyword match and an Issue/Start Date on or after 2026-10-01 (e.g. Cupertino staff-augmentation RFQ dates from 2024-25). No JS-rendered listings (Bonfire, Jaggaer, BuySpeed, etc.) could be read in this pass. No records saved; no email sent.
