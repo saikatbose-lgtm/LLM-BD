@@ -167,3 +167,8 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - https://www.txsmartbuy.gov/esbd — public listing page 1 re-checked 2026-09-30; one qualifying RFP saved: `Source/Scraped/2026-09-30_TX-TRS-TRS000658-AI-and-IT-Technical-Support-and-Advising-Services-RFP.md`.
 - https://apps.cupertino.org/details/756 — re-confirmed; already saved as `2026-09-28_Cupertino-RFQ-for-Staff-Augmentation-Services.md`.
 - All other URLs returned HTTP 200 but static HTML held no approved-keyword listings (Bonfire/ionwave/Jaggaer portals are JS-rendered shells; no new records saved).
+
+## 2026-10-17 automated HTTP sweep
+
+- https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=Georgia&FromBranded=true (public listing readable with no login; October 2026 solicitations saved)
+- https://lonestar.ionwave.net/SourcingEvents.aspx?SourceType=1 (public listing readable with no login; October 2026 solicitations saved)
