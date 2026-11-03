@@ -234,7 +234,7 @@ Use the official source as the primary source. Keep the original RFP title and s
 
 After the scraping and validation process is complete, email the findings that are **not null** to the configured email recipient.
 ```Emails
-saikat.bose@ommincorp.com
+business-development@ommincorp.com
 akul.kaushal@ommincorp.com
 ```
 ### Email Rules
