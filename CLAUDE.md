@@ -184,11 +184,11 @@ Before saving:
 - Capture issue/start date when available.
 - Capture end date/closing date when available.
 - Capture response/due date when available.
-- Capture the question-submission deadline when the portal publishes one separately from the due date.
-- Capture the POC/buyer name and email when available; if only a department-generic email is published, capture that rather than leaving the field blank.
+: - Capture the question-submission deadline when the portal publishes one separately from the due date.
+: - Capture the POC/buyer name and email when available; if only a department-generic email is published, capture that rather than leaving the field blank.
 - Capture agency/organization when available.
 - Capture location when available.
-- If an open-looking bid turns out to already have an awarded vendor, a "Bid to PO"/closed/invitation-only status, or is an amendment/change-order to an existing contract rather than a new competitive solicitation, do not treat it as a live opportunity — note the actual status instead of its original-looking "open" listing.
+: - If an open-looking bid turns out to already have an awarded vendor, a "Bid to PO"/closed/invitation-only status, or is an amendment/change-order to an existing contract rather than a new competitive solicitation, do not treat it as a live opportunity — note the actual status instead of its original-looking "open" listing.
 - Capture the matched keyword(s).
 - Capture the NAICS/NIGP/UNSPSC code(s) when available, and note if they supported the relevance decision.
 - Capture the official source URL.
@@ -229,11 +229,11 @@ rfp name: RFP Title
 - **Issue / Start Date:** ...
 - **End / Closing Date:** ...
 - **Due Date:** ...
-- **Question Submission Due Date:** ... (or `Not available` — some portals don't publish this separately from the Due Date)
-- **POC / Buyer:** Name and email when published (or `Not available` — some portals only publish a department-generic email, which should still be captured rather than left blank)
+: - **Question Submission Due Date:** ... (or `Not available` — some portals don't publish this separately from the Due Date)
+: - **POC / Buyer:** Name and email when published (or `Not available` — some portals only publish a department-generic email, which should still be captured rather than left blank)
 - **Location:** ...
 - **Solicitation Type:** RFP
-- **Match Status:** Matched | Unmatched | Matched (unconfirmed — full detail page gated behind login/paid account)
+: - **Match Status:** Matched | Unmatched | Matched (unconfirmed — full detail page gated behind login/paid account)
 - **Matched Keywords:** ... (or `None` when Unmatched)
 - **NAICS / NIGP / UNSPSC Codes:** ... (or `Not available`)
 - **Source URL:** ...
@@ -315,7 +315,7 @@ Use the official source as the primary source. Keep the original RFP title and s
 
 After the scraping and validation process is complete, email the findings that are **not null** to the configured email recipient.
 ```Emails
-saikat.bose@ommincorp.com
+business-development@ommincorp.com
 akul.kaushal@ommincorp.com
 ```
 ### Email Rules
@@ -327,7 +327,11 @@ akul.kaushal@ommincorp.com
 5. Use the configured mail integration/recipient named `configured_mail`.
 6. Do not expose credentials or authentication information in the email.
 7. The email should summarize the findings clearly and link back to the official source URLs.
-8. Mail must be in html form and also the finding must be in this format, under its Matched or Unmatched section
+8. Mail must always be sent in proper, well-formed HTML — never plain text, and never raw Markdown pasted into the body. Concretely:
+   - Use real HTML tags for structure: `<h2>`/`<h3>` for section headings, `<table>`/`<tr>`/`<th>`/`<td>` for any tabular data (findings lists, field comparisons), `<ul>`/`<li>` for lists, `<a href="...">` for links. Do not leave Markdown syntax (`**bold**`, `| pipe | tables |`, `#` headings, `` `backticks` ``) unconverted in the HTML body — it will render as literal characters in an email client.
+   - Every section (Matched, Unmatched, any other grouping) gets its own heading and, where the content is tabular, its own `<table>` with a header row.
+   - Keep the same structure/sections across an email thread on the same subject so findings stay easy to compare run over run.
+9. Mail must have the finding in this format, under its Matched or Unmatched section
 ```mail format
 RFP Name — [Matched | Unmatched]
 - Source: <source_link>
