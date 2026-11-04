@@ -13,8 +13,8 @@ rfp name: Water and Sewer Utility Valuation and Financial Planning Services
 - **POC / Buyer:** Not available
 - **Location:** New Jersey
 - **Solicitation Type:** Not stated
-- **Match Status:** Unmatched
-- **Matched Keywords:** None
+- **Match Status:** Matched (unconfirmed — listing-level only, detail page gated)
+- **Matched Keywords:** Consulting Services; Professional, Consulting, Administrative and Management Support Services
 - **NAICS / NIGP / UNSPSC Codes:** Not available
 - **Source URL:** http://www.morriscountybidsystem.com/
 - **Retrieved:** 2026-11-04 (UTC)
@@ -25,7 +25,7 @@ Listing-level detail only; the detail page is gated behind registration/login.
 
 ## Relevance
 
-Water/sewer utility valuation and financial planning is a financial advisory service; listing-level detail only, no approved keyword genuinely applies, tagged Unmatched with limited detail.
+Financial planning/valuation advisory for a utility fits "Professional, Consulting, Administrative and Management Support Services" / "Consulting Services". Unconfirmed: only the listing title was reviewed and the detail page is gated. (Two runs disagreed — one tagged this Unmatched, one Matched (unconfirmed); resolved to Matched (unconfirmed) so a possible consulting opportunity is not buried.)
 
 ## Source
 
