@@ -1,5 +1,15 @@
 # Easily Scrapable (Reachable subset)
 
+## 2026-11-11 scheduled run (all 385 `url_reachable.md` URLs re-swept via curl + Playwright)
+
+Full methodology and per-URL disposition in `Source/Scraped/_run_log_2026-11-11.md`. New/confirmed easily-scrapable, JS-rendered listings worth noting for future sessions (all loaded real open-opportunity content without login/CAPTCHA once rendered with JavaScript — plain HTTP returns an empty shell for these):
+
+- https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=GIT (Georgia Tech; one Matched record saved — Smart Parking Guidance Platform & System, RFP 2027-RFP-INTECH-0029)
+- https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList (LA County ISD; two strong keyword hits found — Zscaler renewal tagged "Networking Services", Beyond Trust Software License tagged "Maintenance/Support - Software" — not saved this run because the public listing shows only a Close Date and the detail modal/CSV export were inaccessible; worth a follow-up pass to confirm Issue Date)
+- https://www.bidexpress.com/businesses/85766/home?agency=true (Municipality of Anchorage; ITB 2026B090 "Furnish Cisco Spine and Leaf Network Refresh" matched "Networking Services" by title but same Issue-Date-unavailable/detail-gated issue — not saved)
+- http://www.morriscountybidsystem.com/ → https://www.bidnetdirect.com/new-jersey (New Jersey Purchasing Group; 3 new records saved this run — 1 Matched-unconfirmed, 2 Unmatched)
+- https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=SUNY&FromBranded=true and ?CustomerOrg=Georgia&FromBranded=true — reviewed in full, no approved-keyword match this run
+
 ## 2026-10-15 session (30 URLs from a separately supplied batch, browser-verified)
 
 Third-party bid aggregators and additional state-portal paths, checked outside the main `url_reachable.md` sweep order; all loaded without login, CAPTCHA, or other access barrier.
