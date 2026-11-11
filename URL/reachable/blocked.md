@@ -2,7 +2,7 @@
 
 ## Login / registration / session pages reviewed on 2026-09-26
 
-- http://www.morriscountybidsystem.com/ (redirects to `https://www.bidnetdirect.com/new-jersey`; server responds 200 with a real BidNet Direct marketing/landing page, but the page contains no bid-listing content — only "Login"/"Register" links — so no solicitation data is viewable without a BidNet account; reclassified from `easily_scrapable.md` after re-check)
+(Entry removed 2026-11-11: re-checked and found to server-render a real, dated open-solicitations list without login — see `easily_scrapable.md`.)
 
 ## Login / registration / session pages reviewed on 2026-09-16
 
