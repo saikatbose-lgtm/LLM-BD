@@ -550,3 +550,161 @@ No new qualifying RFP saved: candidate keyword hits either lacked a confirmable 
 - https://www.mecknc.gov/finance/procurement/Pages/default.aspx
 - https://www.nyscr.ny.gov/login.cfm
 - https://www.californiabids.com/bid_opportunities/
+
+## 2026-11-12 session (full `url_reachable.md` sweep — every one of the 384 then-current reachable URLs individually visited, none sampled)
+
+Per-URL status/HTTP-code/reason detail for the full sweep is in `Source/Scraped/_run_log_2026-11-12.md`. The URLs below were reachable (server responded) but no RFP/solicitation content could actually be viewed this session; grouped by obstacle as required. A number of these are individual URLs within platform families (Bonfire, JAGGAER, PlanetBids, OpenGov, Oracle Cloud, ionwave, etc.) whose login/CAPTCHA/WAF pattern was already confirmed for that platform in prior sessions — see earlier sections of this file.
+
+### Login / registration required (94)
+
+- http://norta.procureware.com/login (HTTP 200, BLOCKED) — login wall (score 4)
+- http://www.mncppc.org/register.html (HTTP 301, BLOCKED) — HTTP 301 redirect to login/registration
+- https://account.bonfirehub.com/login?flow=e128e6d0-9c89-447a-a993-8965998b25cf (HTTP 302, BLOCKED) — HTTP 302 redirect to login/registration
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=CalState (HTTP 200, BLOCKED) — login wall (score 3)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=CalState&AuthToken=1%3AAES2%23COeR%2B9y0uJonDteiKZ%2BEXAT%2F0wQEtmCgTPxmtdhiaPctxEQmexjpjCV4N49d5X3drP1zeuVcth%2FPIsK26ub%2FRR7PdwEzslABhuOduB5H9gT3N0M3ug%2FeRnMZKr3z3NgtkQNLRexTFFmXjo%2BndLeXxoucMxlzNwPcEg%3D%3D&SuccessToken=3&URL=ViewSourcingEvent%3FAuthToken%3D1%253AAES2%2523COeR%252B9y0uJonDteiKZ%252BEXAT%252F0wQEtmCgTPxmtdhiaPctxEQmexjpjCV4N49d5X3drP1zeuVcth%252FPIsK26ub%252FRR7PdwEzslABhuOduB5H9gT3N0M3ug%252FeRnMZKr3z3NgtkQNLRexTFFmXjo%252BndLeXxoucMxlzNwPcEg%253D%253D%26CustOrg%3DCalState%26EventId%3D1236956%26SupplierId%3D%26tmstmp%3D1721417133691 (HTTP 200, BLOCKED) — login wall (score 3)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=DASIowa&AuthToken=1%3AAES2%23CPmLxE194MfNW61Rm11HoQxaKwxKFaW1exWmJwCj40cAzNj7b2BIxBPkLEOcvTtX%2BpJDJkJ5Cx8If85U3HHktBs0WUA2FhXYx4ylKZlWe6Dl8ZUiNC7QW2%2FpGQ9owC7ixKRB2jAVqLQgkMmXJenZQt6oet7RoJWDSA%3D%3D&SuccessToken=3&URL=ViewSourcingEvent%3FAuthToken%3D1%253AAES2%2523CPmLxE194MfNW61Rm11HoQxaKwxKFaW1exWmJwCj40cAzNj7b2BIxBPkLEOcvTtX%252BpJDJkJ5Cx8If85U3HHktBs0WUA2FhXYx4ylKZlWe6Dl8ZUiNC7QW2%252FpGQ9owC7ixKRB2jAVqLQgkMmXJenZQt6oet7RoJWDSA%253D%253D%26CustOrg%3DDASIowa%26EventId%3D1308705%26SupplierId%3D%26tmstmp%3D1745010830840 (HTTP 200, BLOCKED) — login wall (score 4)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=FSU&AuthToken=1%3AAES2%23CB2x1C8s631A6rCRGO4hHp7Pdx5kHuKL5kzpnL4rN84o8fcYVFGer%2BJObLvWJFPDMhE9q7dBcTQFe0kdKrR09eJ4wKnLUwsW8%2FUwf1ksxDTlsRHbnGqPsZBMyH3SybMT5spbptdoYIb9OLTiTlKg%2FDqCHvRcdLpLfA%3D%3D&SuccessToken=3&URL=ViewSourcingEvent%3FAuthToken%3D1%253AAES2%2523CB2x1C8s631A6rCRGO4hHp7Pdx5kHuKL5kzpnL4rN84o8fcYVFGer%252BJObLvWJFPDMhE9q7dBcTQFe0kdKrR09eJ4wKnLUwsW8%252FUwf1ksxDTlsRHbnGqPsZBMyH3SybMT5spbptdoYIb9OLTiTlKg%252FDqCHvRcdLpLfA%253D%253D%26CustOrg%3DFSU%26EventId%3D1336325%26SupplierId%3D%26tmstmp%3D1757094185862 (HTTP 200, BLOCKED) — login wall (score 3)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=MDAndersonPS (HTTP 200, BLOCKED) — login wall (score 3)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=StateOfNewMexico (HTTP 200, BLOCKED) — login wall (score 3)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=TAMU (HTTP 200, BLOCKED) — login wall (score 3)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=TriC (HTTP 200, BLOCKED) — login wall (score 3)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=UConnFullSuite&AuthToken=1%3AAES2%23CHQBTNcjglgXPI2CtvId3j%2BfPuY04WnaPu%2BnsBcMS8bZ215VDuSfTwsRpPtX3iWiCmxfORXDKW1ZbzYtVoPOKlk1OZVSrvaXn6Zj%2FalXbKWUgJXI%2F4ESN2t3wNRSEH%2Fp3h58an4O5hfgusRc8pKjXGdlS7pAYojg2g%3D%3D&SuccessToken=3&URL=ViewSourcingEvent%3FAuthToken%3D1%253AAES2%2523CHQBTNcjglgXPI2CtvId3j%252BfPuY04WnaPu%252BnsBcMS8bZ215VDuSfTwsRpPtX3iWiCmxfORXDKW1ZbzYtVoPOKlk1OZVSrvaXn6Zj%252FalXbKWUgJXI%252F4ESN2t3wNRSEH%252Fp3h58an4O5hfgusRc8pKjXGdlS7pAYojg2g%253D%253D%26CustOrg%3DUConnFullSuite%26EventId%3D1385650%26SupplierId%3D%26tmstmp%3D1777294149216 (HTTP 200, BLOCKED) — login wall (score 3)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=UIdaho (HTTP 200, BLOCKED) — login wall (score 3)
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=URI (HTTP 200, BLOCKED) — login wall (score 3)
+- https://apps.das.nh.gov/bidscontracts/bids.aspx (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://bidsnexus.com/ (HTTP 200, BLOCKED) — Titles/due dates visible without login, but official source link and agency name (required fields) are gated behind a mandatory free signup; posted date shown is unverifiable as a true issue date.
+- https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://cammnet.octa.net/ (HTTP 200, BLOCKED) — Page explicitly states login is required to view any solicitation; 0 items visible without an account.
+- https://cityofbonitasprings.procureware.com/login (HTTP 200, BLOCKED) — login wall (score 4)
+- https://claytonk12ga.bonfirehub.com/login (HTTP 303, BLOCKED) — HTTP 303 redirect to login/registration
+- https://cob.procureware.com/login (HTTP 200, BLOCKED) — login wall (score 4)
+- https://comet-fs.ci.minneapolis.mn.us/psc/supplier/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?&lp=ERP.SUPPLIER.EP_COSP_PUBLIC_HOME_FL (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://dir.my.site.com/BidStamp/VIS_CustomLogin (HTTP 200, BLOCKED) — login wall (score 3)
+- https://hacp.org/profile/business-developmentommincorp-com/ (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://hamiltoncountyohio.gob2g.com/?TN=hamiltoncountyohio (HTTP 200, BLOCKED) — login wall (score 8)
+- https://hcpss.bonfirehub.com/login (HTTP 303, BLOCKED) — HTTP 303 redirect to login/registration
+- https://hosting.portseattle.org/sops/ (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://hosting.portseattle.org/sops/#/Dashboard (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://lacounty.gov/business/doing-business-with-la-county/lac-purchasing-and-contract-opportunities/ (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://lawa.bonfirehub.com/login (HTTP 303, BLOCKED) — HTTP 303 redirect to login/registration
+- https://login.ehawaii.gov/lala (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://login.neighborlysoftware.com/neighborlysoftware.onmicrosoft.com/oauth2/v2.0/authorize?p=b2c_1_signinsignup_prod&client_id=ab730151-4ac5-4b8c-bdd3-4c0f1bffa3a4&response_type=code%20id_token%20token&scope=openid%20email%20profile%20offline_access%20https%3A%2F%2Fneighborlysoftware.onmicrosoft.com%2Fab730151-4ac5-4b8c-bdd3-4c0f1bffa3a4%2FPortal.Read&state=OpenIdConnect.AuthenticationProperties%3DRibwqB29N7HFG%2FlYtBVU9VQQ%2F47hId8udQ7Qgw4gCV5RWxEAhOVi1FNfkygg3UHLQ92Mm5nrr7PtxBGK1Ctu7VQZKAYDWo1Zw0GNewqepMxUgBtdID6wPyRuFfOCGSGsZoucI%2BKrCfxrtk7ZCE%2FsJ6Fer9k%2FkgDMMI%2Bj5ydxbYJsha6Ju%2BbwJkxl2iKxSiWbg7bz%2BzIArwJ%2BKqV8SCsJ5z%2FkyP%2BUts8TiW0nywmKbnDvMxsR8D%2B5A4UNFkxpwjbymbOFiHW9PXRCHqkEhImRWJSDNKMCqIj80loL00VhBpNteMaRXZDaK%2BHEml%2Fw1MkUBLxhoIJQTxiupyJBRNxRhG6dB%2BbWh7CUp1uHipB2lRr8sAjsfh8IPD18auSh31%2Byv71fC0%2FI2e7Kct5SLawcqg%3D%3D&response_mode=form_post&nonce=639174124887079482.NGJmZDQ0N2EtZjkwNi00ZmY4LWI4MWItNmRkMDcwMTQyNTIzMzYyNWQ4MWUtMjExYy00Yjc4LThlMDYtOWJlZDA4YzNhZDdi&tenantCode=waterlooia&portalType=contractor&nTenantId=490&ui_locales=en&machineCode=00000000-0000-0000-0000-000000000000&redirect_uri=https%3A%2F%2Fportal.neighborlysoftware.com%2Floginredirectcomplete&post_logout_redirect_uri=https%3A%2F%2Fportal.neighborlysoftware.com%2Fwaterlooia%2Fcontractor&x-client-SKU=ID_NET472&x-client-ver=7.5.0.0 (HTTP 200, BLOCKED) — login wall (score 3)
+- https://madisonal.procureware.com/login (HTTP 200, BLOCKED) — login wall (score 4)
+- https://marketplace.unisonglobal.com/login.do?resource_name=marketplace (HTTP 200, BLOCKED) — login wall (score 4)
+- https://mdapex.ecenterdirect.com/ (HTTP 200, BLOCKED) — login wall (score 3)
+- https://mtc.bonfirehub.com/login (HTTP 303, BLOCKED) — HTTP 303 redirect to login/registration
+- https://my.alaska.gov/adfs/ls/?wa=wsignin1.0&wtrealm=https%3a%2f%2fmy.alaska.gov%2f&wctx=rm%3d0%26id%3dpassive%26ru%3d%252fPortal%252fPortal.aspx&wct=2023-11-24T17%3a55%3a54Z (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://ntmwd.bonfirehub.com/registration (HTTP 302, BLOCKED) — HTTP 302 redirect to login/registration
+- https://onlineservices.osc.state.ny.us/Enrollment/login?17 (HTTP 302, BLOCKED) — HTTP 302 redirect to login/registration
+- https://procurement.opengov.com/portal/aurorail (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/baltimorecountymd (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/bft (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/bloomingtonin (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/brevardschools (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/cheyennecity (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/cityofbradenton (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/cityofedinburg (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/cityofhomestead (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/cityofnsb (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/cityoftampa (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/clevelandoh (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/co-hidalgo-tx (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/lompoc (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/morenovalley (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/oak-brook (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/pasadena (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/pinoleca (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/rtd-denver (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/saccounty (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/santacruzca (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/smcgov (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/stpete (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/tucson-az (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/tuolumnecountyca (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://procurement.opengov.com/portal/wheatridgeco (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://scottsdaleaz.bonfirehub.com/login (HTTP 303, BLOCKED) — HTTP 303 redirect to login/registration
+- https://smctd.bonfirehub.com/opportunities/112297 (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://sms-nola-prd.inforcloudsuite.com/fsm/SupplyManagementSupplier/page/XiSupplyManagementSupplierPage?csk.SupplierGroup=100 (HTTP 302, BLOCKED) — HTTP 302 redirect to login/registration
+- https://snoco.procureware.com/login (HTTP 200, BLOCKED) — login wall (score 4)
+- https://solutions.sciquest.com/apps/Router/SupplierLogin (HTTP 200, BLOCKED) — login wall (score 3)
+- https://solutions.sciquest.com/apps/Router/SupplierLogin?CustOrg=BridgewaterState (HTTP 200, BLOCKED) — login wall (score 3)
+- https://solutions.sciquest.com/apps/Router/SupplierLogin?CustOrg=DASIowa (HTTP 200, BLOCKED) — login wall (score 4)
+- https://solutions.sciquest.com/apps/Router/SupplierLogin?CustOrg=Princeton&isLogout=true&tmstmp=1716220417643 (HTTP 200, BLOCKED) — login wall (score 3)
+- https://solutions.sciquest.com/apps/Router/SupplierLogin?CustOrg=StateOfUtah&isLogout=true&tmstmp=1699984786288 (HTTP 200, BLOCKED) — login wall (score 3)
+- https://solutions.sciquest.com/apps/Router/SupplierLogin?GSPSupplier_Login_Email=Business-development%40ommincorp.com&CustOrg=StateOfMontana&SuccessToken=1&tmstmp=1695233574600 (HTTP 200, BLOCKED) — login wall (score 3)
+- https://stamfordct.procureware.com/login (HTTP 200, BLOCKED) — login wall (score 4)
+- https://strathcona.bonfirehub.ca/login (HTTP 303, BLOCKED) — HTTP 303 redirect to login/registration
+- https://tohowater.bonfirehub.com/login/forgot (HTTP 303, BLOCKED) — HTTP 303 redirect to login/registration
+- https://vendors.planetbids.com/ (HTTP 302, BLOCKED) — HTTP 302 redirect to login/registration
+- https://ventura.bonfirehub.com/registration (HTTP 302, BLOCKED) — HTTP 302 redirect to login/registration
+- https://via.sbecompliance.com/ (HTTP 200, BLOCKED) — login wall (score 8)
+- https://via.sbecompliance.com/?TN=via (HTTP 200, BLOCKED) — login wall (score 8)
+- https://waukeshacounty.bonfirehub.com/opportunities/144594 (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://www.bidnetdirect.com/new-jersey/lbha (HTTP 202, BLOCKED) — HTTP 202 (bot-check/JS challenge, empty body)
+- https://www.bidnetdirect.com/private/supplier/solicitations/search (HTTP 202, BLOCKED) — HTTP 202 (bot-check/JS challenge, empty body)
+- https://www.bidnetdirect.com/public/solicitations/open (HTTP 200, BLOCKED) — Listing loads with no login (26,104 open solicitations) but every detail page (description, agency, buyer, solicitation #) is locked to registered members only — cannot verify scope/keywords/codes.
+- https://www.cdta.org/node/15813/register (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://www.cpsk12bids.com/auth/login (HTTP 200, BLOCKED) — login wall (score 3)
+- https://www.kalcounty.com/ (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://www.laramiecountywy.gov/Request-for-Proposals (HTTP 403, BLOCKED) — HTTP 403 access denied
+- https://www.mymta.info/psc/VENDOR/GUEST/SUPP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL (HTTP 200, BLOCKED) — login wall (score 3)
+- https://www.mymta.info/psc/VENDOR/SUPPLIER/SUPP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?&lp=SUPP.SUPPLIER.B_ESUP_SECURE_FL_HP&lp=SUPP.SUPPLIER.B_ESUP_SECURE_FL_HP (HTTP 200, BLOCKED) — login wall (score 3)
+- https://www.stlmsdplanroom.com/auth/login (HTTP 200, BLOCKED) — login wall (score 3)
+- https://yvr.bonfirehub.ca/login (HTTP 303, BLOCKED) — HTTP 303 redirect to login/registration
+
+### CAPTCHA / bot-check / WAF (30)
+
+- http://newhavenhousing.cobblestonesystems.com/gateway/Login.aspx (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 35)
+- http://njstart.gov/ (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 10)
+- http://vendorportal.dc.gov/ (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 3)
+- https://alabamabuys.gov/page.aspx/en/sup/registration_extranet/save (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 9)
+- https://alohaebuys.hawaii.gov/bso/view/login/login.xhtml (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 10)
+- https://app.az.gov/page.aspx/en/sup/registration_extranet/save (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 8)
+- https://arbuy.arkansas.gov/bso/view/login/login.xhtml (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 10)
+- https://dhr.alabama.gov/announcements/ (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 10)
+- https://guest.supplier.systems.state.mn.us/psc/fmssupap/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 8)
+- https://guest.supplier.systems.state.mn.us/psc/fmssupap_20/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_BID_CMP_FL.GBL?PAGE=SCP_PUB_BIDLIST_FL (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 8)
+- https://kbrsupplier.com/default.aspx (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 9)
+- https://knoxbuys.buyspeed.com/bso/view/login/login.xhtml (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 10)
+- https://login-euxp-saasfaprod1.fa.ocs.oraclecloud.com/oam/server/obrareq.cgi?ECID-Context=1.0062xRLviAgFS8V5u30FyX0007aI0003xm%3BkXjE (HTTP 503, BLOCKED) — HTTP 503 (WAF/service challenge)
+- https://login-exkk-saasfaprod1.fa.ocs.oraclecloud.com/oam/server/obrareq.cgi?encquery%3D5KbKcxXM%2Fj31a5DXL88CkKQxNL8xTgjx4o0T1qvnZ%2Fm8L2PVioR3VV1mC34DycQZg0dWLUr3o1012giKiZTeLaHBd98AahIgscHY6X%2BjknHWJTGvHe2M7sMJAhATajCClH2Gx0nkCL6bzAbl%2BeHZ6uiXgB%2B2hOmd%2FQzizf5Y4YNkakpfRK5yMBTn8PZ9OsPNGrM%2B9IEZeXceK4jlLN54auwgY6%2B6KY4M7NGvbtyUVhrexBSDMkJ1OjzgiQG26s7nUNgDOOBUY1V47R2%2FWeMq%2Bd5RS64LygmWx1uZVUYM2hKWN3EGASc%2FSKuhZmDEEqqbRerUTv8simlP4wr9hR9Mpg0V0hRCebgR0PJpg4%2BHF7Ag3SZ7q9E7%2BHfRzp%2F3W%2B3GmJQk%2BTkTLecO55P653z0xHK1qj1hCGfUC%2F7kmkzXjp1zFdxcYxy0Wmms4vL3XeoVshFxno55Xarw4aCIFXtNTxZWRW7uf5m0Zw2p6WcH89Wrs2vxPwt6PMezO3rioKyymXYA0SEkvDg3C%2FapCuEENBINGbNbfVXmU9HJ3r8XnlclYMyGyIGLAznYm98%2BiO%2F0AWsh3bbiaxSI9qt8veZReDf6Rn9T76JBWjcttWwXXZET%2BU4t5KxKqJ1QJxPAEhmZzJZ2sRAm4bRXVI4ODGQRpEciLt8Lj3lB9rFv9tqgF10%3D%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2%26cksum%3D75ca2eec8e5ee3dbd0b2a672207ad24ecf7dc56a&ECID-Context=1.006Ivf_oUN8AxGKayTaeMG0060Ok0001FM%3BkXjE (HTTP 503, BLOCKED) — HTTP 503 (WAF/service challenge)
+- https://login-ibqhjb.fa.ocs.oraclecloud.com/oam/server/obrareq.cgi?encquery%3DxS138OL6YUFqo5kXqhatUBRr5X3V1RGL4k%2Bz0kVeSsDqPlMtLQOkCPPbjyD9zFAHBZaV%2B4%2Bm1%2BC15RRXqDUzJfqgkiyvt3ZB8iYpaRVN9qApx0UAl6kxqVcVIFnLXt9LuTk4KALc3n4SIQddr6q6%2BOFzVzgiKyWa3cqoE2V12YBzK8Pi2SYryl1afztYU9JVUJP29U%2FlKJqV7biRJbQE9H2sPdqJv3kpoyqbSpybx21q5XYhaPoGc2tLTa6xi%2FRfih66LyuMO4FMp8vH5zA12aZ9ltzcyzAVFI3x7uQLcAh6pHQm7VqoYEwfyhjgh7FaYQ9cE67Q%2BeRAkhh0r5dlkA%2Fjbd93rdrtDAMuzNqFGgeGYMM%2F3wqSyRTAXhDr9kp1RGsdNmsK1lr6FA9OZ2brJTDDbjPwVNPLMB3TyYleKacbH9%2FXviCjUQ%2FHwzgt5a9ZuBGEumvbK0TxwMpgsJ0yu0jXJ6%2BfZNKN5%2FaG4Pxi2jY47gyzltsiogFvef6dIlZzVXVFjPIDgDWoc%2BR0v7%2BtJDZbAdRc3bNMWuWNuFlHz2%2BemlSYNUCtIqoSCOFJ3PMxgHpdIwsCoLnHZ1A0BPrjrnmeJlZ1BLCj1XMN8aCDPaJXMm8GUoFpBDoJcVgnroYkpEYrk4FICQDlSWQJyHDEZvAyf8mrlleFvHliIKe7iqCM0VrJPJxOx3XLM4%2FFoSIgzv34BqFfX4c4fRTLYbEEbRj5%2FXmyMe04mzMmfdsm1rdZs7boBYCvTXKmhklZQme33TFM26PGec1T0ZnFkODoiPWb3%2FSouG2DGmvCBo7uh0cfmdMNlRngKQDEg9Gi8IlTDr5a4zrqqOzUe5eYoFAwMHRnZ%2Bi9XY%2B%2FbqXxXqBVLWnW6hwImdtNFjXGJuER7GbvbnYWaahNTQQ5aBDezpKFOUdrjSKzI6ICdCnXnnpPo%2BgKo9HQXsMrFc89CE%2BnPbXiforjn%2FjUa7sPlnIN3occRYXNafpmYekQzHYI%2F5J1L1TsBHOdebeWGx20HeLYJXFOWGup58ViARCFzp0cgp8GZntiBKsdecvdg97v5k3sO5HEWS96IYcQHlDmXIdsdBsPOG1cvSJ1JixuseaaZM5OMnOTxpsV1uToblun5Vs6DfOgTv3VUQXVevMFCyC%2BTBucOnTiZCfdT92T%2Bp1XkdveKsJ2jeRebG165AKqLnEJ5eZQhBs6eWn9v%2FRow0mdfeKFavO7Fr%2FXELn9GXe13oQh0sy0RX4kW1qvKVWgI9%2FfiVQMikBsESPOFMA5dwtAFr%2BggEb7aYvdjXYs6zvmlxNxNyXwN2m3GcH7mf%2FopLRrFKVdnqD00kjja5i%2FNebYOfMTMGLVHIoL5EorazZ1hyrc2bafEjj63su3Ns2ltD0kTZvQpgdySfeQEZ21WjibhABsOHZ9SPQE91Ss5TAF6LYkOztU1VyaPmp5g%2BEwbirV3o%2FDo9a%2Fi%2By%2BFvDpPWBkpt2bIHXxWj%2F3699%2BniBsU97TRPn3nRmAmTie6HCRb0kH4k1oTrl70mjMjsI8O3bhdvhj1EnFU8r6ZSszcyTneTE%2Bma7MCYbylmnwQppds6nbIQFyzq4UMv1nLeAS3MHFZkThUexNB165wz0ycXAKMEqID%2FiVHZok2XfhRFfcA2bIk7Y%2FiBD1CplaGU%2F30%2FTC0u61H3iD5Hulp7L5f7jBTp5IjQ%3D%3D%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2%26cksum%3Db7d14dfa13cdabd935ca9c7841fb201bfe34a229&ECID-Context=1.006Ji0n6W6n2FSMqyKvX6G003mVL0000wW%3BkXjE (HTTP 503, BLOCKED) — HTTP 503 (WAF/service challenge)
+- https://longbeachbuys.buyspeed.com/bso/view/login/login.xhtml (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 10)
+- https://octa.govqa.us/WEBAPP/_rs/(S(hn5r0labmmsdycjs2dfu2bmf))/SupportHome.aspx?sSessionID=136023057:64058TERBOPBL%5BFZ%5BSWSTLWXOUBTSH (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 8)
+- https://oregonbuys.gov/bso/ (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 10)
+- https://oregonbuys.gov/bso/view/login/login.xhtml (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 10)
+- https://procure.cgieva.com/page.aspx/en/sup/registration_extranet/save (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 9)
+- https://procure.portlandoregon.gov/bso/seller/bidAck.sdo (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 10)
+- https://sms-idaho-prd.tam.inforgov.com/sso/SSOServlet?_action=LOGINREQD&_logininst=W68E33gEyArMeQNVR!2B0pO4UAJK!2BQjvLlYP!2BnbMhYU2hA39DrCszSxwAAAYqPkSI!2F&_TKM=492813489&_serviceName=FSM.IEFINAPP.SUPPLYMANAGEMENTSUPPLIER (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 129)
+- https://sms-idaho-prd.tam.inforgov.com/sso/SSOServlet?_action=TIMEOUTASSERT&_ssoOrigUrl=https%3A%2F%2Fsms-idaho-prd.tam.inforgov.com%3A443%2Ffsm%2FSupplyManagementSupplier%2Fpage%2FXiSupplyManagementSupplierPage%3Fcsk.SupplierGroup%3DLUMA&_TKM=372688986&_serviceName=FSM.IEFINAPP.SUPPLYMANAGEMENTSUPPLIER&LoginId=business-development@ommincorp.com (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 129)
+- https://vendorportal.dc.gov/Account/Login (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 3)
+- https://www.bidbuy.illinois.gov/bso/ (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 10)
+- https://www.commbuys.com/bso/ (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 10)
+- https://www.commbuys.com/bso/view/login/login.xhtml (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 10)
+- https://www.frederickcountymd.gov/1116/Open-Bids---Current-Solicitations (HTTP 200, BLOCKED) — County page has no embedded listing; links to the actual OpenGov portal which returns HTTP 403 (WAF/bot block).
+- https://www.njstart.gov/bso/ (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 10)
+- https://www.rfpmart.com/userlogin.html (HTTP 200, BLOCKED) — WAF/captcha signal in body (score 16)
+
+### Rate limited (2)
+
+- https://bidranger.com/ (HTTP 429, BLOCKED) — HTTP 429 rate limited
+- https://govwhitepapers.com/?utm_source=GovEvents&utm_medium=NavBar (HTTP 429, BLOCKED) — HTTP 429 rate limited
+
+### Broken / error page (9)
+
+- https://bids.wyomingmi.gov/Bid/SpecDownload/2236?fromLogin=1 (HTTP 522, FAILED/broken) — HTTP 522 / connection error
+- https://dmschools.procureware.com/Companies?t=Info (HTTP 404, FAILED/broken) — HTTP 404 / connection error
+- https://fms-prd.ps.sc.edu/psc/FPRD/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL? (HTTP 000, FAILED/broken) — HTTP 000 / connection error
+- https://health.maryland.gov/procumnt/pages/procopps.aspx?utm_source=chatgpt.com (HTTP 404, FAILED/broken) — HTTP 404 / connection error
+- https://mevss.hostams.com/PRDVSS1X1/AltSelfService (HTTP 404, FAILED/broken) — HTTP 404 / connection error
+- https://via.diversitycompliance.com/FrontPage/VendorMain.asp?XID=9510 (HTTP 404, FAILED/broken) — HTTP 404 / connection error
+- https://www.mecknc.gov/finance/procurement/Pages/default.aspx (HTTP 404, FAILED/broken) — HTTP 404 / connection error
+- https://www.njstart.gov/bso/external/vendor/regComSrvcCodes.sdo (HTTP 500, FAILED/broken) — HTTP 500 / connection error
+- https://www.nyscr.ny.gov/login.cfm (HTTP 404, FAILED/broken) — HTTP 404 / connection error
+
+### Uncertain / other access barrier (3)
+
+- https://evp.nc.gov/solicitations/ (HTTP 200, BLOCKED) — Page loads (200) but the records view itself returns a permissions/system error blocking anonymous viewing of actual solicitation data.
+- https://idm-global.j1p.jaggaer.com/auth/realms/j1p-supplier-idm/login-actions/authenticate?client_id=prod-idp.app.jaggaer.com&tab_id=DvM31H7SmPk (HTTP 400, BLOCKED) — HTTP 400 (auth flow rejected)
+- https://www.instantmarkets.com/home (HTTP 200, BLOCKED) — Angular SPA; raw fetch returns an empty script-only shell, no server-rendered listing reachable without JS execution.
+
