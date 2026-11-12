@@ -199,3 +199,260 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
   - Georgia "Legal and Contract Software" (eRFI, open 2026-09-30, closes 2026-10-28) matches no approved keyword.
   - Anchorage RFP 2026P044 (due 2026-10-16) shows no issue or start date.
 - JavaScript-only portals (e.g. Bonfire) returned shell pages and were not verified.
+
+## 2026-11-12 session (full `url_reachable.md` sweep — every one of the 384 then-current reachable URLs individually visited, none sampled)
+
+Per-URL status/HTTP-code/reason detail for the full sweep is in `Source/Scraped/_run_log_2026-11-12.md`. The URLs below loaded without login, CAPTCHA, or other access barrier this session (SUCCESS = real solicitation content reviewed; NO_RELEVANT_RESULTS = page reachable/readable but no bid-listing content or empty listing). Where an earlier session already listed a URL in this file, it is not repeated here.
+
+**SUCCESS this session (19):**
+
+- http://www.morriscountybidsystem.com/ — Redirects to the public BidNet Direct New Jersey portal, listing viewable without login; 6 new Unmatched items saved.
+- https://a856-cityrecord.nyc.gov/ — NYC City Record search/listing viewable without login; 1 genuine open solicitation passed the date filter and was saved (Unmatched); other IT-titled items were confirmed award/renewal notices, correctly excluded.
+- https://app.rfpplanner.com/opportunity/match/ — Large public listing (400 pages) viewable without login; no true Issue/Start Date published for any candidate (only platform "Date Added"), so nothing saved per Data Accuracy rules.
+- https://apps.cupertino.org/details/756 — Real detail page viewable; item already saved in a prior run (pre-cutoff issue date), no new file needed.
+- https://bidopportunities.chugachelectric.com/ — Two open RFPs read via public ad PDFs; both predate the Nov 1 cutoff so nothing saved.
+- https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=GIT — Georgia Tech JAGGAER sourcing page, 5 open solicitations viewable without login; 3 passed the date filter and were saved (1 Matched, 2 Unmatched).
+- https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=Georgia&FromBranded=true — Georgia Procurement Registry public listing viewable without login; 10 new Unmatched items saved.
+- https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=SUNY&FromBranded=true — 8 open SUNY solicitations viewable without login; 2 passed the date filter and were saved (both Unmatched).
+- https://ebs.pnnl.gov/advertised.aspx — 3 advertised solicitations viewable without login; 2 passed the date filter and were saved (both Unmatched).
+- https://garwoodnj.govoffice3.com/index.asp?SEC=2E0FA122-5AAF-4709-8370-F01AB70B1579&pri=0 — Public page, no login; 1 new Unmatched RFQ saved (2027 Professional Services).
+- https://publicbidtracker.com/ — Retried after transient connection failure in the initial sweep; loads a real public aggregator landing page with live state-by-state open-bid counts/sample rows (consistent with 2026-10-15 session classification). No agency-specific dated detail to extract from this landing page itself; no new file.
+- https://valenciacollege.edu/employees/procurement/solicitations.php — Embedded myvendorlink.com iframe viewable without login (327 results); the 2 visible active items are an RFI and a sole-source notice, out of RFP/RFQ/IFB/CRFQ scope — nothing to save.
+- https://ww3.nysif.com/FooterPages/Column1/AboutNYSIF/Procurement — ~20 active RFP/RFQ/IFB/RFI rows viewable without login; no Issue/Start Date published for any row, so nothing passed the date filter.
+- https://www.bidexpress.com/businesses/85766/home?agency=true — Anchorage/MOA listing of 12 Upcoming Solicitations viewable without login; no Issue/Posted date available anywhere (detail pages login-gated), so nothing could pass the date filter.
+- https://www.cityoftulsa.org/government/departments/finance/selling-to-the-city/bid-opportunities-and-results/?t=current — 13 open bids reviewed via detail PDFs; 5 passed the date filter and were saved (all Unmatched).
+- https://www.emarketplace.state.pa.us/Search.aspx — PA eMarketplace public solicitation search, fully viewable without login; 3 new + 1 updated record saved.
+- https://www.matawanborough.com/matawan/Bid%20Notices%20and%20Requests%20for%20Proposals/ — Public listing reviewed in full; no item has a confirmable Issue/Start Date on or after the Nov 1 cutoff, so nothing saved.
+- https://www.rfpmart.com/ — Third-party aggregator; public teaser list (100 of 6,946) viewable without login, full detail gated behind paid subscription; 7 keyword-matching teasers saved as Matched (unconfirmed - gated).
+- https://www.rochesterhousing.org/bid-opportunities — 1 open bid listed, viewable without login, but no Issue/Start Date published anywhere, so it cannot be saved per the date filter.
+
+**NO_RELEVANT_RESULTS this session (228, reachable/readable, no bid-listing content found):**
+
+- http://procurement.opengov.com/
+- http://www.scsk12.org/procurement/bids
+- https://access.alberta.ca/auth/realms/41898876-5358-402d-aae5-eee17a413de5/protocol/openid-connect/auth?client_id=apc-app&redirect_uri=https%3A%2F%2Fpurchasing.alberta.ca%2Fauth-callback&response_type=code&scope=openid&state=bbfd4bd389cb423a98165473274390b5&code_challenge=7gPvK1m6Ml4-FdLaOsGEF5qqfo6D4i1z5YQag7pazSY&code_challenge_method=S256&response_mode=query&apc_target=supplier
+- https://acwd.bonfirehub.com/portal/?tab=openOpportunities
+- https://alabamabuys.gov/page.aspx/en/usr/login
+- https://alamedahsg.bonfirehub.com/portal/?tab=openOpportunities
+- https://alexandriava.bonfirehub.com/portal/?tab=openOpportunities
+- https://algonquincollege.bonfirehub.ca/portal/?tab=openOpportunities
+- https://alleghenycounty.bonfirehub.com/portal/?tab=openOpportunities
+- https://allentx.ionwave.net/Vendor/VendorHome.aspx
+- https://app01.jaggaer.com/apps/Router/BrandedSupplierHome?CustOrg=GIT&supplierID=1007876976&tmstmp=1763649218182
+- https://app01.jaggaer.com/apps/Router/BrandedSupplierHome?CustOrg=UMich&supplierID=1007876976&tmstmp=1750096171684
+- https://app01.jaggaer.com/apps/Router/BrandedSupplierHome?tmstmp=1733233768378
+- https://app01.jaggaer.com/apps/Router/BrandedSupplierHome?tmstmp=1757684588373
+- https://app01.jaggaer.com/apps/Router/BrandedSupplierHome?tmstmp=1768591824093
+- https://app01.jaggaer.com/apps/Router/BrandedSupplierHome?tmstmp=1769709497801
+- https://app01.jaggaer.com/apps/Router/BrandedSupplierHome?tmstmp=1782391392219
+- https://apps.ideal-logic.com/uopcs
+- https://arkansas.ionwave.net/
+- https://baltimorecity.diversitycompliance.com/FrontPage/VendorMain.asp?XID=2708
+- https://baltimorecounty.prismcompliance.com/
+- https://bernco.bonfirehub.com/portal/?tab=openOpportunities
+- https://bgca.bonfirehub.com/portal/?tab=openOpportunities
+- https://bgs.vermont.gov/purchasing
+- https://biddingo.com/soundtransit
+- https://biddingsimple.com/
+- https://bidlocker.us/Home/bidlockerus
+- https://bidportal.ksu.edu/Module/Tenders/en/Vendor/Dashboard/70f4d5cf-dabf-47c6-a618-3522733a7088
+- https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=UTSA&FromBranded=true
+- https://bouldercounty.bonfirehub.com/portal/?tab=openOpportunities
+- https://brazosbid.ionwave.net/Login.aspx
+- https://caleprocure.ca.gov/
+- https://caleprocure.ca.gov/pages/Events-BS3/event-search.aspx
+- https://ccsd.bonfirehub.com/portal/?tab=openOpportunities
+- https://certification-app.sbsd.virginia.gov/boLogin
+- https://ci-lubbock-tx.bonfirehub.com/portal/?tab=openOpportunities
+- https://cityofbonitasprings.procureware.com/
+- https://comalisd.bonfirehub.com/portal/?tab=openOpportunities
+- https://contracts-marioncountygcc.msappproxy.net/gateway/Login.aspx
+- https://cookcountyhealth.bonfirehub.com/portal
+- https://cookcountyil.bonfirehub.com/portal
+- https://das.iowa.gov/vendors/bidding-opportunities
+- https://davenport.ionwave.net/Login.aspx
+- https://daviefl.bonfirehub.com/portal
+- https://dfwairport.bonfirehub.com/portal/?tab=openOpportunities
+- https://dmschools.ionwave.net/Vendor/VendorHome.aspx
+- https://douglascountypurchasing.ionwave.net/Login.aspx
+- https://ecsd.bonfirehub.ca/portal/?tab=openOpportunities
+- https://ejbs.fa.us6.oraclecloud.com/supplierPortal/faces/FndOverview?fndGlobalItemNodeId=itemNode_supplier_portal_supplier_portal
+- https://emma.maryland.gov/page.aspx/en/usr/login?ReturnUrl=%2fpage.aspx%2fen%2fbuy%2fhomepage
+- https://eprocurement.esmsolutions.com/resetpassword?Token=935c91e0-3b71-4706-88a0-2cc4dc6d5da7
+- https://esupplier.erp.delaware.gov/psc/fn92pdesup/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_REG_CMP_FL.GBL
+- https://esupplier.sonomacounty.ca.gov/psc/FN92PRD_9/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?Page=PT_LANDINGPAGE&Action=H
+- https://eva.virginia.gov/
+- https://fairfaxcounty.bonfirehub.com/portal/?tab=openOpportunities
+- https://fayetteville-ar.ionwave.net/Login.aspx
+- https://fayetteville-ga.ionwave.net/Login.aspx
+- https://financials.ok.gov/psc/SOKLFP1DS/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?
+- https://flyri.com/riac/procurement/
+- https://fortworthtexas.bonfirehub.com/portal/?tab=openOpportunities
+- https://fscm.teamworks.georgia.gov/psc/supp/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?
+- https://gccisd.ionwave.net/
+- https://ggbhtd.bonfirehub.com/portal/
+- https://goodbuy.ionwave.net/Login.aspx
+- https://govbidwire.com/
+- https://ha.internationaleprocurement.com/
+- https://habc.bonfirehub.com/portal/?tab=openOpportunities
+- https://homesa.bonfirehub.com/portal/?tab=openOpportunities
+- https://hub.edison.tn.gov/psc/fsprd/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?LP=EP_COSP_PUBLIC_HOME_FL&
+- https://idcs-9275a5d3c7c74bb390dab405c8de5456.identity.oraclecloud.com/ui/v1/signin
+- https://identity.planetbids.com/identity/public/client/login.html?appCode=portal&agency_id=20134&client_id=connected-app-live-a6ef820a-76d1-4cab-9e2c-26e9f246cf8f&redirect_uri=https%3A%2F%2Fvendors.planetbids.com%2Foauth%2Fcallback&state=%7B%22agency_id%22%3A20134%7D&agency_name=North+County+Transit+District&organizationId=organization-live-4b1a8e07-9503-4b5c-8dea-4e537ec156ff&enableOtpLogin=true&showOtpPrompt=false&registerUrl=https%3A%2F%2Fvendors.planetbids.com%2Fportal%2F20134%2Fvp%2Fvp-prereg&forgotPasswordUrl=https%3A%2F%2Fvendors.planetbids.com%2Fportal%2F20134%2Freset-password
+- https://identity.planetbids.com/identity/public/client/login.html?appCode=portal&agency_id=53010&client_id=connected-app-live-a6ef820a-76d1-4cab-9e2c-26e9f246cf8f&redirect_uri=https%3A%2F%2Fvendors.planetbids.com%2Foauth%2Fcallback&state=%7B%22agency_id%22%3A53010%7D&agency_name=Long+Beach+City+College&organizationId=organization-live-4b1a8e07-9503-4b5c-8dea-4e537ec156ff&enableOtpLogin=true&showOtpPrompt=false&registerUrl=https%3A%2F%2Fvendors.planetbids.com%2Fportal%2F53010%2Fvp%2Fvp-prereg&forgotPasswordUrl=https%3A%2F%2Fvendors.planetbids.com%2Fportal%2F53010%2Freset-password
+- https://identity.planetbids.com/identity/public/client/login.html?appCode=portal&agency_id=73214&client_id=connected-app-live-a6ef820a-76d1-4cab-9e2c-26e9f246cf8f&redirect_uri=https%3A%2F%2Fvendors.planetbids.com%2Foauth%2Fcallback&state=%7B%22agency_id%22%3A73214%7D&agency_name=Sacramento+Municipal+Utility+District&agency_logo=https%3A%2F%2Ffiles-prod01.planetbids.com%2Ff73214%2F20250428114636755+SMUD_Logo_4c.png&organizationId=organization-live-4b1a8e07-9503-4b5c-8dea-4e537ec156ff&enableOtpLogin=true&showOtpPrompt=false&registerUrl=https%3A%2F%2Fvendors.planetbids.com%2Fportal%2F73214%2Fvp%2Fvp-prereg&forgotPasswordUrl=https%3A%2F%2Fvendors.planetbids.com%2Fportal%2F73214%2Freset-password
+- https://identity.planetbids.com/identity/public/oauth/login?appCode=portal&agency_id=39471&client_id=connected-app-live-a6ef820a-76d1-4cab-9e2c-26e9f246cf8f&redirect_uri=https%3A%2F%2Fvendors.planetbids.com%2Foauth%2Fcallback&state=%7B%22agency_id%22%3A39471%7D&agency_name=San%20Diego%20Housing%20Commission
+- https://identity.planetbids.com/identity/public/oauth/login?appCode=portal&agency_id=41576&client_id=connected-app-live-a6ef820a-76d1-4cab-9e2c-26e9f246cf8f&redirect_uri=https%3A%2F%2Fvendors.planetbids.com%2Foauth%2Fcallback&state=%7B%22agency_id%22%3A41576%7D&agency_name=City%20of%20Menifee
+- https://iehp.bonfirehub.com/portal
+- https://iris-vss.alaska.gov/
+- https://jeffersoncitymo.bonfirehub.com/portal/?tab=openOpportunities
+- https://jocogov.ionwave.net/
+- https://jocogov.ionwave.net/Login.aspx
+- https://lagoverpvendor.doa.louisiana.gov/irj/portal
+- https://lajoyaisd.ionwave.net/Login.aspx
+- https://lakeworthbeachfl.bidsandtenders.net/Module/Tenders/en/Home/BidsHomepage
+- https://lcpscm.ionwave.net/VendorRegistration/CompanyInfo.aspx
+- https://leegov.ionwave.net/Login.aspx
+- https://lexingtoncounty.ionwave.net/Vendor/VendorHome.aspx
+- https://lexingtonky.ionwave.net/Login.aspx
+- https://lonestar.ionwave.net/SourcingEvents.aspx?SourceType=1
+- https://lrsd.ionwave.net/Login.aspx
+- https://mdcourts.bonfirehub.com/portal/?tab=openOpportunities
+- https://mdstad.bonfirehub.com/portal/?tab=openOpportunities
+- https://mecknc-vss.hostams.com/PRDVSS1X1/Advantage4
+- https://menv.bonfirehub.com/portal/?tab=openOpportunities
+- https://miamiu-ohiousourcing.ionwave.net/Login.aspx
+- https://mps.bonfirehub.com/portal/?tab=openOpportunities
+- https://mwrd.app/Cntrctann/
+- https://mwrd.bonfirehub.com/portal/?tab=openOpportunities
+- https://myncid.nc.gov/index.html
+- https://myncid.nc.gov/index.html#/main/userProfile
+- https://myok-staffing.onconcourse.com/login?type=partner
+- https://nait.bonfirehub.ca/portal/?tab=openOpportunities
+- https://nevada.ionwave.net/
+- https://nsc.bonfirehub.ca/portal/?tab=openOpportunities
+- https://ny.newnycontracts.com/FrontPage/VendorMain.asp?XID=4111
+- https://oklahoma.gov/omes/divisions/central-purchasing/suppliers-and-payees/supplier-portal.html
+- https://onesource.wsscwater.com//OA_HTML/RF.jsp?function_id=1016386&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=PhlO--YbzhGGoNoQiWelCZh8E6l6Vyf-l4j.nKjuI12HTsr8tTeQfKj07gHqCs2V0m07ZPkHnatj9d0m7aE2QQ&oas=hqMw_v58KSRcN5hDt1ZHUg
+- https://onesource.wsscwater.com/OA_HTML/RF.jsp?function_id=1016386&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=PhlO--YbzhGGoNoQiWelCZh8E6l6Vyf-l4j.nKjuI12HTsr8tTeQfKj07gHqCs2V0m07ZPkHnatj9d0m7aE2QQ&oas=hqMw_v58KSRcN5hDt1ZHUg
+- https://passport.cityofnewyork.us/page.aspx/en/buy/homepage/ven
+- https://pasupplierportal.state.pa.us/irj/portal/anonymous
+- https://pbcvssp.co.palm-beach.fl.us/webapp/vssp/AltSelfService?EmailToken=02730029218941640788
+- https://pbsystem.planetbids.com/portal/13821/portal-home
+- https://pbsystem.planetbids.com/portal/13982/login
+- https://pbsystem.planetbids.com/portal/13982/login#
+- https://pennbid.bonfirehub.com/portal/?tab=openOpportunities
+- https://pinalcountyaz.bonfirehub.com/portal
+- https://portal.ct.gov/das/ctsource/bidboard
+- https://pr-webs-vendor.des.wa.gov/
+- https://pro.prismcompliance.com/
+- https://pro.prismcompliance.com/default.aspx
+- https://procuralerts.com/government-bids
+- https://procurement.opengov.com/login
+- https://procurement.opengov.com/vendors/155272/proposals
+- https://proportal.sourcewell-mn.gov/Module/Tenders/en/Vendor/Dashboard/b50f7d44-0fe6-4ffe-8621-fbae66354482
+- https://pur.doas.ga.gov/gpr/
+- https://purchasing.iu.edu/resources/forms/table.html
+- https://recuperacion.pr.gov/en/procurement-and-nofa/procurement/
+- https://sawsbid.ionwave.net/Login.aspx
+- https://sccpss.bonfirehub.com/portal/?tab=openOpportunities
+- https://sdbuynet.sandiegocounty.gov/page.aspx/en/usr/login
+- https://secure.bidsandtenders.ca/Module/Tenders/en/Login/Index/
+- https://security.app.cpa.state.tx.us/Public/login?logout
+- https://service.ariba.com/Authenticator.aw/ad/ssoIDP
+- https://sigma.michigan.gov/PRDVSS1X1/Advantage4
+- https://solutions.sciquest.com/apps/Router/BrandedSupplierHome?CustOrg=UCOP&supplierID=1007876976&tmstmp=1738093109276
+- https://solutions.sciquest.com/apps/Router/SupplierPortalHome?tmstmp=1699981963442
+- https://solutions.sciquest.com/apps/Router/SupplierWelcome?CustOrg=TriMet&supplierID=1007876976&tmstmp=1704204983800
+- https://stamfordct.procureware.com/home
+- https://stillwater.ionwave.net/Login.aspx
+- https://supplier.esmsolutions.com/home
+- https://supplier.ionwave.net/Vendor/VendorHome.aspx
+- https://supplier.ionwave.net/VendorLogin.aspx
+- https://supplier.ionwave.net/VendorResponse/ResponseList.aspx?status=AVAILABLE
+- https://supplier.miamidade.gov/
+- https://supplier.sok.ks.gov/psc/sokfsprdsup/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_REG_CMP_FL.GBL
+- https://supplier.wmata.com/psc/supplier/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?
+- https://supplierservice.sanantonio.gov/irj/portal
+- https://supplierservice.sanantonio.gov/irj/portal#12587465-vendor-info
+- https://tarrantcountytx.ionwave.net/Login.aspx
+- https://thebidbroker.com/
+- https://transitchicago.bonfirehub.com/portal/?tab=openOpportunities
+- https://trstexas-supplier.ivalua.app/page.aspx/en/sup/registration_manage/2594
+- https://uiebid.ionwave.net/Login.aspx
+- https://upstream.dc.gov/Sourcing/Main/ad/loginPage/SSOActions?awsso_cc=passwordadapter%3AU291cmNpbmdTdXBwbGllclVzZXI%3D%3Bawsso_ru%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbj9wYXNzd29yZGFkYXB0ZXI9U291cmNpbmdTdXBwbGllclVzZXI%3D%3Bawsso_lu%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbi9hZC9jbGllbnRMb2dvdXQvU1NPQWN0aW9ucw%3D%3D%3Bawsso_ap%3AQUNN%3Bawsso_arid%3AMTY4ODk5MzA3NjY0NA%3D%3D%3Bawsso_ku%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbi9hZC9jbGllbnRLZWVwQWxpdmUvU1NPQWN0aW9ucw%3D%3D%3Bawsso_fl%3AMQ%3D%3D&awsso_ap=ACM&awsso_hpk=true&passwordadapter=SourcingSupplierUser&awsr=true
+- https://upstream.dc.gov/Sourcing/Main?realm=System&passwordadapter=SourcingSupplierUser&awsso_tkn=24MUzqrzky68f28a69a52257ff
+- https://vendor.myfloridamarketplace.com/login
+- https://vendor.myfloridamarketplace.com/search/bids
+- https://vendor.purchasingconnection.ca/default.aspx
+- https://vendors.planetbids.com/portal/14599/bo/bo-search
+- https://vendors.planetbids.com/portal/14599/portal-home
+- https://vendors.planetbids.com/portal/15300/portal-home
+- https://vendors.planetbids.com/portal/15381/portal-home
+- https://vendors.planetbids.com/portal/16151/portal-home
+- https://vendors.planetbids.com/portal/16151/vp/vp-home
+- https://vendors.planetbids.com/portal/16725/login
+- https://vendors.planetbids.com/portal/17950/login
+- https://vendors.planetbids.com/portal/17950/login#
+- https://vendors.planetbids.com/portal/20134/portal-home
+- https://vendors.planetbids.com/portal/20136/vp/vp-home
+- https://vendors.planetbids.com/portal/20314/portal-home
+- https://vendors.planetbids.com/portal/22078/portal-home
+- https://vendors.planetbids.com/portal/22576/bo/bo-detail/141899
+- https://vendors.planetbids.com/portal/23532/bo/bo-search
+- https://vendors.planetbids.com/portal/23758/portal-home
+- https://vendors.planetbids.com/portal/24103/portal-home
+- https://vendors.planetbids.com/portal/24660/portal-home
+- https://vendors.planetbids.com/portal/24661/portal-home
+- https://vendors.planetbids.com/portal/27996/portal-home
+- https://vendors.planetbids.com/portal/28789/portal-home
+- https://vendors.planetbids.com/portal/29744/portal-home
+- https://vendors.planetbids.com/portal/32621/vp/vp-home
+- https://vendors.planetbids.com/portal/39475/vp/vp-home
+- https://vendors.planetbids.com/portal/39495/login
+- https://vendors.planetbids.com/portal/39495/login#
+- https://vendors.planetbids.com/portal/39501/portal-home
+- https://vendors.planetbids.com/portal/43728/vp/vp-home
+- https://vendors.planetbids.com/portal/45619/bo/bo-search
+- https://vendors.planetbids.com/portal/49906/vp/vp-home
+- https://vendors.planetbids.com/portal/53010/portal-home
+- https://vendors.planetbids.com/portal/59724/vp/vp-home
+- https://vendors.planetbids.com/portal/62287/bo/bo-search
+- https://vendors.planetbids.com/portal/64863/portal-home
+- https://vendors.planetbids.com/portal/65292/vp/vp-prereg
+- https://vendors.planetbids.com/portal/65844/portal-home
+- https://vendors.planetbids.com/portal/68007/portal-home
+- https://vendors.planetbids.com/portal/76708/portal-home
+- https://vendors.planetbids.com/portal/77636/portal-home
+- https://vrapp.vendorregistry.com/Account/LogOn
+- https://vrapp.vendorregistry.com/Bids/View/BidsList?BuyerId=c5e9d3e7-b8e0-4e36-bcab-8db00d18d769
+- https://vss.ky.gov/
+- https://vss.ky.gov/vssprod-ext/Advantage4
+- https://vss.ky.gov/vssprod-ext/Advantage4?openDoc=openDoc&DocumentCode=RFP&DepartmentCode=415&DocumentID=2600000199&DocumentVersNo=2&targetView=ammendHistoryView&Destination=pSolication
+- https://vss.state.co.us/
+- https://vtbuys.suppliers.vermont.gov/page.aspx/en/usr/login
+- https://wrd.bonfirehub.com/portal/?tab=openOpportunities
+- https://www.ahfc.us/about-us/notices/requests-proposals
+- https://www.annapolis.gov/bids.aspx
+- https://www.beaconbid.com/solicitations/city-of-houston/121f4067-fb3a-4d30-85b9-ea6a6cafe989/contingent-labor-services-all-categories?token=supplier-login.ObiU4vtGsc_vRNVc-a87JReydRqhQP07ozrco4z95xclrg1KaW517ezRNB5QzTvK8dS9z_wfmREHNc6qRuGr-uHTYI229n9X2AhzK2_xmpo1LIlDsnrcN9YzPY9tkrWfy3EN_v3vttW09t3yqiaBnArwIvYLa3JnzE4G9B1giu5p7FuxEHf2iImOzrCy7TDIptzKNwKUivDO0G3DxgJ4Yz43Iz6gCzrsPGyOdGXCJV9Qg29rKw2IN4_Nw5d1czIABi6VfJW2RJtyEc02dHo1amlJHrAnTsWOtrQ8zz6lolxc5u8OanNPWUJnmTMDrOPoY-3_mtuNxCYeyzX2seLpWEfkAtq1AbX1X_Xb-492Ng&eid=bc055432-0873-482a-98b8-0490d2821dc8
+- https://www.beaconbid.com/solicitations/city-of-houston/open
+- https://www.bidbuy.illinois.gov/bso/external/vendor/regSummary.sdo?vendorId=NZdPl7Rvv_Oq&mode=initial&dateTime=1694627292171
+- https://www.bidcontract.com/
+- https://www.busybids.org/
+- https://www.californiabids.com/bid_opportunities/
+- https://www.centralauctionhouse.com/login.php
+- https://www.contrax.company/
+- https://www.dcwater.com/useful-links
+- https://www.demandstar.com/app/suppliers/bids
+- https://www.govevents.com/?signoutsucccess
+- https://www.infotechexpress.com/business
+- https://www.kcsdschools.net/dept/finance/procurement
+- https://www.myvendorlink.com/external/login
+- https://www.northwestmsbids.com/
+- https://www.nunavuttenders.ca/UploadBidderTC.aspx
+- https://www.nyscr.ny.gov/
+- https://www.ptcvendorportal.com/
+- https://www.ptcvendorportal.com/#/sp/auth/signin
+- https://www.txsmartbuy.com/esbd
+- https://www.txsmartbuy.gov/esbd
+- https://www.voa.va.gov/default.aspx?PageId=1

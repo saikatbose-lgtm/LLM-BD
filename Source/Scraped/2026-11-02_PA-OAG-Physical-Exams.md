@@ -10,7 +10,7 @@ rfp name: 1400 Paoag Physical Exams
 - **End / Closing Date:** 2026-11-16 8:01 AM (bid opening)
 - **Due Date:** 2026-11-16 8:00 AM
 - **Question Submission Due Date:** Not available
-- **POC / Buyer:** Erin Webster (email not available)
+- **POC / Buyer:** Erin Webster, ewebster@attorneygeneral.gov
 - **Location:** Statewide, Pennsylvania
 - **Solicitation Type:** IFB
 - **Match Status:** Unmatched
