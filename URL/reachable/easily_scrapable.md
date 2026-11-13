@@ -199,3 +199,12 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
   - Georgia "Legal and Contract Software" (eRFI, open 2026-09-30, closes 2026-10-28) matches no approved keyword.
   - Anchorage RFP 2026P044 (due 2026-10-16) shows no issue or start date.
 - JavaScript-only portals (e.g. Bonfire) returned shell pages and were not verified.
+
+## 2026-11-13 run (strict full-sweep re-run, cutoff 2026-11-01)
+
+- All 385 unique URLs in `url_reachable.md` were fetched individually (full per-URL table in `URL/reachable/run_2026-11-13.md`). 59 loaded readably this run (bucket easily_scrapable): 13 produced at least one solicitation meeting the 2026-11-01 Issue/Start-Date cutoff (saved to `Source/Scraped/`; see the run log and the 2026-11-13 email summary for the full Matched/Unmatched list), and 46 loaded but had no qualifying solicitation (no listing, listings entirely pre-cutoff, or no confirmable Issue/Start date).
+- Newly confirmed readable-but-no-qualifying-listing URLs added this run (not previously classified in this file):
+  - https://octa.govqa.us/WEBAPP/_rs/.../SupportHome.aspx?sSessionID=... — public-records-request center, not a procurement portal.
+  - https://valenciacollege.edu/employees/procurement/solicitations.php — embeds a myvendorlink.com iframe listing 327 solicitations; page 1 all Awarded/Canceled, most recent broadcast date 2026-07-22 (before cutoff).
+  - https://ww3.nysif.com/FooterPages/Column1/AboutNYSIF/Procurement — real NYSIF RFP/RFQ/RFI/IFB listing, but only due dates are published, no Issue/Posted/Start date for any entry, so the date filter could not be confirmed.
+- Notable sources of new Matched/Unmatched findings this run: biddingsimple.com (39 solicitations across many federal/state/local agencies), bidnetdirect.com/new-jersey via morriscountybidsystem.com (25 NJ solicitations), txsmartbuy.gov/esbd (6), bids01.jaggaer.com CustOrg=Georgia/SUNY (11), bids.sciquest.com CustOrg=GIT (3), procurement.iu.edu (2), emarketplace.state.pa.us (4), ebs.pnnl.gov (2), nyscr.ny.gov (2), garwoodnj.govoffice3.com (1).
