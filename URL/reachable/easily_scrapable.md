@@ -1,5 +1,10 @@
 # Easily Scrapable (Reachable subset)
 
+## 2026-11-13 session
+
+- https://ww3.nysif.com/FooterPages/Column1/AboutNYSIF/Procurement (NYSIF Procurement page; loads freely with no login/CAPTCHA, lists real open RFP/RFQ/RFI titles and due dates)
+- https://valenciacollege.edu/employees/procurement/solicitations.php (loads freely with no login/CAPTCHA; the solicitation search/listing is populated dynamically via JS, so no rows are visible to a non-JS fetch, but the page itself presents no access barrier)
+
 ## 2026-10-15 session (30 URLs from a separately supplied batch, browser-verified)
 
 Third-party bid aggregators and additional state-portal paths, checked outside the main `url_reachable.md` sweep order; all loaded without login, CAPTCHA, or other access barrier.

@@ -1,5 +1,13 @@
 # Blocked (Reachable subset)
 
+## Login / registration / session pages reviewed on 2026-11-13
+
+- https://snoco.procureware.com/login (ProcureWare login wall, HTTP 403 to automated fetch; no solicitation content visible without an account)
+- https://stillwater.ionwave.net/Login.aspx (IonWave login page; bot-check/anti-automation markers present, no public sourcing-events grid visible)
+- https://tarrantcountytx.ionwave.net/Login.aspx (IonWave login page; bot-check/anti-automation markers present)
+- https://uiebid.ionwave.net/Login.aspx (IonWave login page; bot-check/anti-automation markers present)
+- https://upstream.dc.gov/Sourcing/Main/ad/loginPage/SSOActions?... (DC "Upstream" SAP Sourcing SSO login redirect URL; no solicitation content visible without authenticating)
+
 ## Login / registration / session pages reviewed on 2026-09-26
 
 - http://www.morriscountybidsystem.com/ (redirects to `https://www.bidnetdirect.com/new-jersey`; server responds 200 with a real BidNet Direct marketing/landing page, but the page contains no bid-listing content — only "Login"/"Register" links — so no solicitation data is viewable without a BidNet account; reclassified from `easily_scrapable.md` after re-check)
