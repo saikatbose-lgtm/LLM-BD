@@ -550,3 +550,16 @@ No new qualifying RFP saved: candidate keyword hits either lacked a confirmable 
 - https://www.mecknc.gov/finance/procurement/Pages/default.aspx
 - https://www.nyscr.ny.gov/login.cfm
 - https://www.californiabids.com/bid_opportunities/
+
+## Login / registration pages reviewed on 2026-11-13
+
+- https://snoco.procureware.com/login (403 Forbidden, Procureware login wall)
+- https://stillwater.ionwave.net/Login.aspx (IonWave/Euna vendor sign-in; Current/Closed/Awarded Bids links require login)
+- https://tarrantcountytx.ionwave.net/Login.aspx (IonWave/Euna vendor sign-in, no listings)
+- https://uiebid.ionwave.net/Login.aspx (IonWave/Euna vendor sign-in, no listings)
+- https://upstream.dc.gov/Sourcing/Main/ad/loginPage/SSOActions?awsso_cc=... (Ariba Spend Management sign-in page, DC OCP Upstream, no listings)
+- https://upstream.dc.gov/Sourcing/Main?realm=System&passwordadapter=SourcingSupplierUser&awsso_tkn=24MUzqrzky68f28a69a52257ff (same Ariba Spend Management sign-in page)
+
+## Run 2026-11-13 (strict full-sweep re-run)
+
+All 385 unique URLs in `url_reachable.md` were fetched individually again this run (full per-URL table in `URL/reachable/run_2026-11-13.md`). 326 were classified BLOCKED this run (login wall / CAPTCHA / Cloudflare-WAF / broken page / JS-only shell). Most were previously-confirmed blocked platforms (Bonfire, IonWave/Euna, Jaggaer/Ariba SSO, PlanetBids bot-check, OpenGov Cloudflare, Procureware, PeopleSoft, Oracle Fusion/OAM). Only the handful of genuinely new URLs above were added to this file; the rest were already listed from prior runs.
