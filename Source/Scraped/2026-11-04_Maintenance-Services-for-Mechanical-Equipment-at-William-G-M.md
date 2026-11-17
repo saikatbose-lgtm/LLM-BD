@@ -1,0 +1,33 @@
+# Maintenance Services for Mechanical Equipment at William G. Mennen Sports Arena
+
+#2026-11-04
+rfp name: Maintenance Services for Mechanical Equipment at William G. Mennen Sports Arena
+
+- **RFP / Solicitation Number:** Not available (gated; BidNet ID 0000442601)
+- **Agency / Organization:** Not available (gated; New Jersey Purchasing Group member agency)
+- **Posted Date:** 2026-11-04
+- **Issue / Start Date:** 2026-11-04 (BidNet published date)
+- **End / Closing Date:** 2026-12-09
+- **Due Date:** 2026-12-09
+- **Question Submission Due Date:** Not available
+- **POC / Buyer:** Not available
+- **Location:** New Jersey
+- **Solicitation Type:** Not available (listed as open solicitation)
+- **Match Status:** Unmatched
+- **Matched Keywords:** None
+- **NAICS / NIGP / UNSPSC Codes:** Not available
+- **Source URL:** https://www.bidnetdirect.com/new-jersey/solicitations/open-bids/Maintenance-Services-for-Mechanical-Equipment-at-William-G-Mennen-Sports-Arena/0000442601?purchasingGroupId=8405151&origin=1
+- **Retrieved:** 2026-11-17 (UTC)
+
+## Description
+
+Listing-level only: 'Maintenance Services for Mechanical Equipment at William G. Mennen Sports Arena', published 2026-11-04 on the BidNet Direct New Jersey Purchasing Group open-solicitations list (redirect target of morriscountybidsystem.com), closing 2026-12-09. Issuing organization, solicitation number, description and buyer contact are locked to registered members on the detail page.
+
+## Relevance
+
+Mechanical equipment maintenance at a sports arena. No approved keyword or code genuinely applies (title-level only; detail gated).
+
+## Source
+
+- Official source: https://www.bidnetdirect.com/new-jersey/solicitations/open-bids/Maintenance-Services-for-Mechanical-Equipment-at-William-G-Mennen-Sports-Arena/0000442601?purchasingGroupId=8405151&origin=1
+- Portal searched: http://www.morriscountybidsystem.com/

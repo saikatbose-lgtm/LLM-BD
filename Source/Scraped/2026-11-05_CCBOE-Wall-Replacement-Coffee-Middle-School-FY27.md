@@ -1,0 +1,33 @@
+# CCBOE Wall Replacement Coffee Middle School FY27
+
+#2026-11-05
+rfp name: CCBOE Wall Replacement Coffee Middle School FY27
+
+- **RFP / Solicitation Number:** PE-55008-NONST-2027-000000033
+- **Agency / Organization:** Coffee County School System
+- **Posted Date:** 2026-11-05
+- **Issue / Start Date:** 2026-11-05
+- **End / Closing Date:** 2026-12-08
+- **Due Date:** Dec 08, 2026 02:00 PM ET
+- **Question Submission Due Date:** Not available
+- **POC / Buyer:** Michael Spikes michael.spikes@coffee.k12.ga.us 912-850-5018
+- **Location:** Georgia, USA
+- **Solicitation Type:** Bid event (GPR event type: Non-State Agency; specific solicitation type not stated)
+- **Match Status:** Unmatched
+- **Matched Keywords:** None
+- **NAICS / NIGP / UNSPSC Codes:** NIGP 90924 Building Construction, Commercial and Institutional; NIGP 90927 Building Construction, Educational
+- **Source URL:** https://pur.doas.ga.gov/gpr/eventDetails?eSourceNumber=PE-55008-NONST-2027-000000033&sourceSystemType=gpr20
+- **Retrieved:** 2026-11-17 (UTC)
+
+## Description
+
+Project consists of removing masonry wall, hollow metal frames, aluminum windows, flooring, ceiling tile, ceiling grid, install new masonry wall, hollow metal doors and frames, hardware install new ceiling tile, ceiling grid, new flooring, and removing debris from site.
+
+## Relevance
+
+Coffee County School System construction/public-works solicitation: "CCBOE Wall Replacement Coffee Middle School FY27". After reviewing the description and codes (90924 Building Construction, Commercial and Institutional, 90927 Building Construction, Educational), the scope is not IT services, IT staffing, staffing/employment, administrative/clerical support, data processing or management-consulting work under the approved keyword list.
+
+## Source
+
+- Official source: https://pur.doas.ga.gov/gpr/eventDetails?eSourceNumber=PE-55008-NONST-2027-000000033&sourceSystemType=gpr20
+- Portal searched: https://pur.doas.ga.gov/gpr/

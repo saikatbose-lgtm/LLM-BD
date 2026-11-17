@@ -550,3 +550,37 @@ No new qualifying RFP saved: candidate keyword hits either lacked a confirmable 
 - https://www.mecknc.gov/finance/procurement/Pages/default.aspx
 - https://www.nyscr.ny.gov/login.cfm
 - https://www.californiabids.com/bid_opportunities/
+
+
+## 2026-11-17 run (Playwright-rendered; reclassified into blocked)
+
+URL reachable but no solicitation listing could be viewed on 2026-11-17. Where an older entry for the same URL exists in `easily_scrapable.md`, this run supersedes it.
+
+### Broken / error page
+
+- http://www.mncppc.org/register.html (Navigation error: page.goto: net::ERR_TOO_MANY_REDIRECTS at http://www.mncppc.org/register.html)
+- https://www.annapolis.gov/bids.aspx (HTTP 502)
+- https://www.bidcontract.com/ (HTTP 502)
+
+### Login required
+
+- https://arkansas.ionwave.net/ (Login required to view solicitations)
+- https://eva.virginia.gov/ (Login required to view solicitations)
+- https://sdbuynet.sandiegocounty.gov/page.aspx/en/usr/login (Login required to view solicitations)
+- https://snoco.procureware.com/login (Login wall)
+- https://stillwater.ionwave.net/Login.aspx (Login required to view solicitations)
+- https://supplier.wmata.com/psc/supplier/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL? (Login wall)
+- https://tarrantcountytx.ionwave.net/Login.aspx (Login required to view solicitations)
+- https://uiebid.ionwave.net/Login.aspx (Login required to view solicitations)
+- https://upstream.dc.gov/Sourcing/Main/ad/loginPage/SSOActions?awsso_cc=passwordadapter%3AU291cmNpbmdTdXBwbGllclVzZXI%3D%3Bawsso_ru%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbj9wYXNzd29yZGFkYXB0ZXI9U291cmNpbmdTdXBwbGllclVzZXI%3D%3Bawsso_lu%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbi9hZC9jbGllbnRMb2dvdXQvU1NPQWN0aW9ucw%3D%3D%3Bawsso_ap%3AQUNN%3Bawsso_arid%3AMTY4ODk5MzA3NjY0NA%3D%3D%3Bawsso_ku%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbi9hZC9jbGllbnRLZWVwQWxpdmUvU1NPQWN0aW9ucw%3D%3D%3Bawsso_fl%3AMQ%3D%3D&awsso_ap=ACM&awsso_hpk=true&passwordadapter=SourcingSupplierUser&awsr=true (Login wall)
+- https://www.cpsk12bids.com/auth/login (Login required to view solicitations)
+- https://www.myvendorlink.com/external/login (Login required to view solicitations)
+- https://www.stlmsdplanroom.com/auth/login (Login required to view solicitations)
+
+### CAPTCHA / bot-check / WAF
+
+- https://bidranger.com/ (HTTP 429; bot-check/WAF/access denied)
+- https://pennbid.bonfirehub.com/portal/?tab=openOpportunities (Open-opportunities list (143 projects) readable, but it shows only close dates; no open/issue date in the list or in the public JSON feed, and every opportunity detail page returns a Cloudflare 'Performing security verification' 403 challenge. Issue dates could not be confirmed, so nothing saved.)
+- https://www.rfpmart.com/ (HTTP 200; bot-check/WAF/access denied)
+- https://www.rfpmart.com/userlogin.html (HTTP 200; bot-check/WAF/access denied)
+
