@@ -199,3 +199,13 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
   - Georgia "Legal and Contract Software" (eRFI, open 2026-09-30, closes 2026-10-28) matches no approved keyword.
   - Anchorage RFP 2026P044 (due 2026-10-16) shows no issue or start date.
 - JavaScript-only portals (e.g. Bonfire) returned shell pages and were not verified.
+
+## 2026-11-17 run (headless-browser sweep; moved from `blocked.md`)
+
+These URLs were previously recorded as blocked because a plain HTTP fetch showed no listing. Rendered in Chromium on 2026-11-17, each showed a public, dated solicitation list with no login, CAPTCHA or other barrier.
+
+- http://www.morriscountybidsystem.com/ (Morris County / NJ Purchasing Group (BidNet Direct): open-solicitation list with Published/Closing dates renders in a headless browser without login (112 open; paginated). Detail pages remain gated.)
+- https://biddingo.com/soundtransit (Sound Transit on Biddingo: SPA renders in a headless browser with solicitation number, title, due date and issue date — no login needed.)
+- https://vendors.planetbids.com/portal/14599/bo/bo-search (County of Stanislaus PlanetBids bid search: renders publicly with posted date, title, number and due date.)
+- https://vendors.planetbids.com/portal/23532/bo/bo-search (City of Palmdale PlanetBids bid search: renders publicly with posted date, title, number and due date.)
+- https://vendors.planetbids.com/portal/45619/bo/bo-search (City of Inglewood PlanetBids bid search: renders publicly with posted date, title, number and due date.)
