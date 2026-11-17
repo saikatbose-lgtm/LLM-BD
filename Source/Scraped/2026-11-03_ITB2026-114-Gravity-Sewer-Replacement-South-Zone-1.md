@@ -1,0 +1,37 @@
+# ITB2026-114 Gravity Sewer Replacement South Zone 1
+
+#2026-11-03
+rfp name: ITB2026-114 Gravity Sewer Replacement South Zone 1
+
+- **RFP / Solicitation Number:** PE-62559-NONST-2027-000000036
+- **Agency / Organization:** Tybee Island, City Of
+- **Posted Date:** 2026-11-03
+- **Issue / Start Date:** 2026-11-03
+- **End / Closing Date:** 2026-12-02
+- **Due Date:** 2026-12-02
+- **Question Submission Due Date:** Not available
+- **POC / Buyer:** Aleesha Robinson | aleesha.robinson@cityoftybee.gov | 912-760-4368
+- **Location:** Georgia
+- **Solicitation Type:** Non-State Agency
+- **Match Status:** Unmatched
+- **Matched Keywords:** None
+- **NAICS / NIGP / UNSPSC Codes:** NIGP: 91345 - Construction, Sewer and Storm Drain; 91381 - Maintenance and Repair, Sewer and Storm Drain, Including Removal
+- **Source URL:** https://pur.doas.ga.gov/gpr/eventDetails?eSourceNumber=PE-62559-NONST-2027-000000036&sourceSystemType=gpr20
+- **Retrieved:** 2026-11-17 (UTC)
+
+## Description
+
+The City of Tybee Island, GA will be accepting bids for the Gravity Sewer Replacement South Zone 1. BIDS MUST BE SUBMITTED BY 2:00 PM ON WEDNESDAY, DECEMBER 2, 2026, to Aleesha Robinson, at Tybee Island City Hall, 403 Butler Avenue, Tybee Island, GA 31328. A PRE-PROPOSAL MEETING will be held 11:00AM, MONDAY, NOVEMBER 16, 2026, at the Public Safety Building (78 Van Horne) all prospective bidders are strongly encouraged to attend. Direct all questions in writing to Aleesha Robinson at aleesha.robinson@cityoftybee.gov The City of Tybee Island, GA may (i) reject any, any part of, or all bids and proposals with any party submitting a bid or proposal, or (ii) waive informalities and technicalities, (iii) negotiate directly with any party submitting a bid or proposal, or (iv) accept that proposal which the City of Tybee Island, GA deems to be in its best interest, whether or not it is the lowest dollar proposal.
+
+_Listing note:_ Georgia Procurement Registry; government type: city; process: Non-State Agency; closing Dec 02, 2026 @ 02:00 PM ET.
+
+_Category (per portal):_ Construction / Public Works
+
+## Relevance
+
+Based on the title, description and listed NIGP codes, this is construction / facility repair or public-works work ("ITB2026-114 Gravity Sewer Replacement South Zone 1"). No approved keyword or supporting NAICS/NIGP/UNSPSC code genuinely describes the solicited scope, so it is recorded as Unmatched.
+
+## Source
+
+- Official source: https://pur.doas.ga.gov/gpr/eventDetails?eSourceNumber=PE-62559-NONST-2027-000000036&sourceSystemType=gpr20
+- Listing page visited: https://pur.doas.ga.gov/gpr/
