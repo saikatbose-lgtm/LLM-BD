@@ -1,0 +1,33 @@
+# CCRFP FOR SOFTWARE APPLICATION PROGRAMS FOR LMS
+
+#2026-11-06
+rfp name: CCRFP FOR SOFTWARE APPLICATION PROGRAMS FOR LMS
+
+- **RFP / Solicitation Number:** Not available (gated; BidNet ID 0000442912)
+- **Agency / Organization:** Not available (gated; New Jersey Purchasing Group member agency)
+- **Posted Date:** 2026-11-06
+- **Issue / Start Date:** 2026-11-06 (BidNet published date)
+- **End / Closing Date:** 2026-12-01
+- **Due Date:** 2026-12-01
+- **Question Submission Due Date:** Not available
+- **POC / Buyer:** Not available
+- **Location:** New Jersey
+- **Solicitation Type:** RFP
+- **Match Status:** Matched (unconfirmed — full detail page gated behind login/paid account)
+- **Matched Keywords:** Software Maintenance/Support; Information Technology
+- **NAICS / NIGP / UNSPSC Codes:** Not available
+- **Source URL:** https://www.bidnetdirect.com/new-jersey/solicitations/open-bids/CCRFP-FOR-SOFTWARE-APPLICATION-PROGRAMS-FOR-LMS/0000442912?purchasingGroupId=8405151&origin=1
+- **Retrieved:** 2026-11-17 (UTC)
+
+## Description
+
+Listing-level only: 'CCRFP FOR SOFTWARE APPLICATION PROGRAMS FOR LMS', published 2026-11-06 on the BidNet Direct New Jersey Purchasing Group open-solicitations list (redirect target of morriscountybidsystem.com), closing 2026-12-01. Issuing organization, solicitation number, description and buyer contact are locked to registered members on the detail page.
+
+## Relevance
+
+Competitive-contracting RFP (CCRFP) for software application programs - IT software procurement/support work under the IT/software keywords. Scope is gated (BidNet members only), so whether it includes implementation/support services is unconfirmed. Match is based on the published listing title only; agency/scope details are gated behind BidNet membership.
+
+## Source
+
+- Official source: https://www.bidnetdirect.com/new-jersey/solicitations/open-bids/CCRFP-FOR-SOFTWARE-APPLICATION-PROGRAMS-FOR-LMS/0000442912?purchasingGroupId=8405151&origin=1
+- Portal searched: http://www.morriscountybidsystem.com/
