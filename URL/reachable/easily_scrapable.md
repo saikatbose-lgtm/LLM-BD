@@ -199,3 +199,10 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
   - Georgia "Legal and Contract Software" (eRFI, open 2026-09-30, closes 2026-10-28) matches no approved keyword.
   - Anchorage RFP 2026P044 (due 2026-10-16) shows no issue or start date.
 - JavaScript-only portals (e.g. Bonfire) returned shell pages and were not verified.
+
+## Update 2026-11-18 (automated sweep)
+
+- http://www.morriscountybidsystem.com/ — public BidNet NJ open-bids listing (title, Published, Closing dates) readable without login; first page (25 items) parsed. Previously listed in `blocked.md`; listing itself is open, only per-bid detail pages need free registration.
+- https://valenciacollege.edu/employees/procurement/solicitations.php — public solicitations page readable (no November-dated items this run).
+- https://ww3.nysif.com/FooterPages/Column1/AboutNYSIF/Procurement — public procurement table readable (shows due dates only, no issue dates).
+- Also confirmed readable this run with November postings: Jaggaer public event pages (GIT, Georgia, SUNY, UTSA), ebs.pnnl.gov/advertised.aspx, lonestar.ionwave.net SourcingEvents, txsmartbuy ESBD (paginated via `?page=N`, detail pages public with NIGP codes), PA eMarketplace (ASP.NET "ALL" rows postback), bidnetdirect.com public open list, bidcontract.com, govbidwire.com.

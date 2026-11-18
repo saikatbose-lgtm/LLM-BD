@@ -550,3 +550,11 @@ No new qualifying RFP saved: candidate keyword hits either lacked a confirmable 
 - https://www.mecknc.gov/finance/procurement/Pages/default.aspx
 - https://www.nyscr.ny.gov/login.cfm
 - https://www.californiabids.com/bid_opportunities/
+
+## Update 2026-11-18 (automated sweep)
+
+- **CAPTCHA / login:** https://alohaebuys.hawaii.gov/bso/view/login/login.xhtml — login form with reCAPTCHA; no public listing at this URL.
+- **Rate limited (HTTP 429):** https://bidranger.com/ — returned 429 this run (also 429 on 2026-11-04).
+- **Login required:** https://snoco.procureware.com/login, https://stillwater.ionwave.net/Login.aspx, https://tarrantcountytx.ionwave.net/Login.aspx, https://uiebid.ionwave.net/Login.aspx, the upstream.dc.gov SSO login URL — login pages only.
+- **Cloudflare (detail pages):** Bonfire portals (`*.bonfirehub.com`) — the open-opportunities JSON (`/PublicPortal/getOpenPublicOpportunitiesSectionData`) is public but has no issue/open date; per-opportunity pages are behind a Cloudflare challenge (also in headless Chromium). Tested on alexandriava.bonfirehub.com only; applies to all 48 Bonfire URLs.
+- **Detail gated:** bidexpress.com (Anchorage) — listing public but shows no issue date; solicitation pages require sign-in.
