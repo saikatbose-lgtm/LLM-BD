@@ -550,3 +550,28 @@ No new qualifying RFP saved: candidate keyword hits either lacked a confirmable 
 - https://www.mecknc.gov/finance/procurement/Pages/default.aspx
 - https://www.nyscr.ny.gov/login.cfm
 - https://www.californiabids.com/bid_opportunities/
+
+## 2026-11-19 scheduled run (Playwright/Chromium; each URL individually tested)
+
+### Login required
+
+- https://arkansas.ionwave.net/ — HTTP 200; login/registration wall — no public listing
+- https://snoco.procureware.com/login — HTTP 200; login/registration wall — no public listing
+- https://stillwater.ionwave.net/Login.aspx — HTTP 200; login/registration wall — no public listing
+- https://tarrantcountytx.ionwave.net/Login.aspx — HTTP 200; login/registration wall — no public listing
+- https://uiebid.ionwave.net/Login.aspx — HTTP 200; login/registration wall — no public listing
+- https://upstream.dc.gov/Sourcing/Main/ad/loginPage/SSOActions?awsso_cc=passwordadapter%3AU291cmNpbmdTdXBwbGllclVzZXI%3D%3Bawsso_ru%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbj9wYXNzd29yZGFkYXB0ZXI9U291cmNpbmdTdXBwbGllclVzZXI%3D%3Bawsso_lu%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbi9hZC9jbGllbnRMb2dvdXQvU1NPQWN0aW9ucw%3D%3D%3Bawsso_ap%3AQUNN%3Bawsso_arid%3AMTY4ODk5MzA3NjY0NA%3D%3D%3Bawsso_ku%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbi9hZC9jbGllbnRLZWVwQWxpdmUvU1NPQWN0aW9ucw%3D%3D%3Bawsso_fl%3AMQ%3D%3D&awsso_ap=ACM&awsso_hpk=true&passwordadapter=SourcingSupplierUser&awsr=true — HTTP 200; login/registration wall — no public listing
+- https://www.cpsk12bids.com/auth/login — HTTP 200; login/registration wall — no public listing
+- https://www.myvendorlink.com/external/login — HTTP 200; login/registration wall — no public listing
+- https://www.stlmsdplanroom.com/auth/login — HTTP 200; login/registration wall — no public listing
+
+### CAPTCHA / bot-check / WAF
+
+- https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList — HTTP 403; CAPTCHA / bot-check / WAF / access denied
+- https://dhr.alabama.gov/announcements/ — HTTP 200; CAPTCHA / bot-check / WAF / access denied
+- https://bidranger.com/ — HTTP 429; CAPTCHA / bot-check / WAF / access denied
+- https://guest.supplier.systems.state.mn.us/psc/fmssupap_20/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_BID_CMP_FL.GBL?PAGE=SCP_PUB_BIDLIST_FL — HTTP 200; CAPTCHA / bot-check / WAF / access denied
+
+### Broken / error page
+
+- https://www.bidcontract.com/ — HTTP 502 error page
