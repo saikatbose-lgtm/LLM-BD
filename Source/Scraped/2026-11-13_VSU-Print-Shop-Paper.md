@@ -1,0 +1,33 @@
+# VSU Print Shop Paper
+
+#2026-11-13
+rfp name: VSU Print Shop Paper
+
+- **RFP / Solicitation Number:** 55100-eRFQ-002154-2027
+- **Agency / Organization:** State of Georgia (Jaggaer branded portal)
+- **Posted Date:** 2026-11-13
+- **Issue / Start Date:** 2026-11-13
+- **End / Closing Date:** 2026-12-11
+- **Due Date:** 2026-12-11
+- **Question Submission Due Date:** Not available
+- **POC / Buyer:** Heather Craft hcraft@valdosta.edu
+- **Location:** Not available
+- **Solicitation Type:** eRFQ
+- **Match Status:** Unmatched
+- **Matched Keywords:** None
+- **NAICS / NIGP / UNSPSC Codes:** Not available
+- **Source URL:** https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=Georgia&FromBranded=true
+- **Retrieved:** 2026-11-19 13:20–13:45 (UTC)
+
+## Description
+
+Listing-level detail only (title, number, dates) as published on the portal listing.
+
+## Relevance
+
+Listing describes "VSU Print Shop Paper". After reviewing the available title, description and category text, the work is not IT services, IT staffing/staff augmentation, consulting/management support, data/records or other approved-keyword work (it is construction, goods/equipment, facilities, legal/insurance/financial, social/health or other out-of-scope services), so it is tagged Unmatched.
+
+## Source
+
+- Official source: https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=Georgia&FromBranded=true
+- Portal listing: https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=Georgia&FromBranded=true
