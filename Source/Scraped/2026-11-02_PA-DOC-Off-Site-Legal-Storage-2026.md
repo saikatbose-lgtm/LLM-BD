@@ -30,3 +30,7 @@ Scope is records/document storage, indexing and tracking, which genuinely falls 
 ## Source
 
 - Official source: https://www.emarketplace.state.pa.us/Search.aspx
+
+## Update 2026-11-20
+
+- PA eMarketplace listing re-checked 2026-11-20: amended 11/18/2026; Solicitation Start Date 11/2/2026; Solicitation Due Date now 11/25/2026 4:00:00 PM; status Open.

@@ -199,3 +199,15 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
   - Georgia "Legal and Contract Software" (eRFI, open 2026-09-30, closes 2026-10-28) matches no approved keyword.
   - Anchorage RFP 2026P044 (due 2026-10-16) shows no issue or start date.
 - JavaScript-only portals (e.g. Bonfire) returned shell pages and were not verified.
+
+## 2026-11-20 run (browser-rendered sweep) — newly confirmed public listings
+
+Full per-URL sorting for this run: `URL/reachable/run_2026-11-20.md`. These listing pages rendered dated solicitation rows with no login/CAPTCHA:
+
+- http://www.morriscountybidsystem.com/ (now renders BidNet Direct NJ open-solicitation list with Published/Closing dates; previously listed in blocked.md as a landing page)
+- https://biddingo.com/soundtransit (Sound Transit list with Date Posted column)
+- https://flyri.com/riac/procurement/ (RIAC bid table with Release Date)
+- https://sms-nola-prd.inforcloudsuite.com/fsm/SupplyManagementSupplier/page/XiSupplyManagementSupplierPage?csk.SupplierGroup=100 (City of New Orleans open events with Open/Close dates)
+- https://valenciacollege.edu/employees/procurement/solicitations.php (broadcast-date table)
+- https://vendors.planetbids.com/portal/14599/bo/bo-search, https://vendors.planetbids.com/portal/23532/bo/bo-search, https://vendors.planetbids.com/portal/45619/bo/bo-search (PlanetBids public bid lists with Posted date — rendered in browser)
+- https://www.frederickcountymd.gov/1116/Open-Bids---Current-Solicitations (Release Date column)
