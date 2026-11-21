@@ -1,0 +1,33 @@
+# T32-D6-Vegetation Floyd Polk SR1 NB -195125
+
+#2026-11-12
+rfp name: T32-D6-Vegetation Floyd Polk SR1 NB -195125
+
+- **RFP / Solicitation Number:** 48400-eRFQ-002180-2027
+- **Agency / Organization:** State of Georgia (Team Georgia Marketplace)
+- **Posted Date:** 2026-11-12
+- **Issue / Start Date:** 11/12/2026, 9:30 AM EST
+- **End / Closing Date:** 12/2/2026, 5:00 PM EST
+- **Due Date:** 12/2/2026, 5:00 PM EST
+- **Question Submission Due Date:** Not available
+- **POC / Buyer:** Gari Aiken gaiken@dot.ga.gov
+- **Location:** Georgia
+- **Solicitation Type:** eRFQ
+- **Match Status:** Unmatched
+- **Matched Keywords:** None
+- **NAICS / NIGP / UNSPSC Codes:** Not available
+- **Source URL:** https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=Georgia&FromBranded=true
+- **Retrieved:** 2026-11-21 (UTC)
+
+## Description
+
+Listing-level detail only; no description shown on the public listing.
+
+## Relevance
+
+Unmatched. The solicitation is grounds, vegetation, environmental or waste services ("T32-D6-Vegetation Floyd Polk SR1 NB -195125"). After reviewing the title, available description, no approved keyword (IT services, staffing, consulting, project/program management, data/records, administrative support, etc.) genuinely describes the scope of work.
+
+## Source
+
+- Official source: https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=Georgia&FromBranded=true
+- Listing page: https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=Georgia&FromBranded=true

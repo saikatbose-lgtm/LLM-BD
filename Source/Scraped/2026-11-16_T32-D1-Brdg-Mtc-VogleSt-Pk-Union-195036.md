@@ -1,0 +1,33 @@
+# T32-D1-Brdg.Mtc.-VogleSt.Pk.-Union-195036
+
+#2026-11-16
+rfp name: T32-D1-Brdg.Mtc.-VogleSt.Pk.-Union-195036
+
+- **RFP / Solicitation Number:** 48400-eRFQ-002196-2027
+- **Agency / Organization:** State of Georgia (Team Georgia Marketplace)
+- **Posted Date:** 2026-11-16
+- **Issue / Start Date:** 11/16/2026, 12:00 PM EST
+- **End / Closing Date:** 12/15/2026, 5:00 PM EST
+- **Due Date:** 12/15/2026, 5:00 PM EST
+- **Question Submission Due Date:** Not available
+- **POC / Buyer:** Whitney Loudermilk wloudermilk@dot.ga.gov
+- **Location:** Georgia
+- **Solicitation Type:** eRFQ
+- **Match Status:** Unmatched
+- **Matched Keywords:** None
+- **NAICS / NIGP / UNSPSC Codes:** Not available
+- **Source URL:** https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=Georgia&FromBranded=true
+- **Retrieved:** 2026-11-21 (UTC)
+
+## Description
+
+Listing-level detail only; no description shown on the public listing.
+
+## Relevance
+
+Unmatched. The solicitation is bridge maintenance construction work ("T32-D1-Brdg.Mtc.-VogleSt.Pk.-Union-195036"). After reviewing the title, available description, no approved keyword (IT services, staffing, consulting, project/program management, data/records, administrative support, etc.) genuinely describes the scope of work.
+
+## Source
+
+- Official source: https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=Georgia&FromBranded=true
+- Listing page: https://bids01.jaggaer.com/apps/Router/PublicEvent?CustomerOrg=Georgia&FromBranded=true

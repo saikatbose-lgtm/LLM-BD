@@ -37,7 +37,6 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - https://sigma.michigan.gov/PRDVSS1X1/Advantage4 (public tiles present are Register/Announcements/Vendor Guides/Vendor Forms/Grant Opportunities only — no bid-search tile was found, though the carousel was not fully exhausted)
 - https://sms-idaho-prd.tam.inforgov.com/sso/SSOServlet?_action=LOGINREQD&... (Infor SSO)
 - https://sms-idaho-prd.tam.inforgov.com/sso/SSOServlet?_action=TIMEOUTASSERT&... (same portal)
-- https://sms-nola-prd.inforcloudsuite.com/fsm/SupplyManagementSupplier/page/XiSupplyManagementSupplierPage?csk.SupplierGroup=100 (page hung on "Loading..." and never resolved)
 - https://solutions.sciquest.com/apps/Router/BrandedSupplierHome?CustOrg=UCOP&supplierID=1007876976&tmstmp=1738093109276 (broken session / bookmark error)
 - https://solutions.sciquest.com/apps/Router/SupplierLogin (generic)
 - https://solutions.sciquest.com/apps/Router/SupplierLogin?CustOrg=BridgewaterState
@@ -144,7 +143,6 @@ The entire `procurement.opengov.com` platform, previously recorded in `easily_sc
 - https://procurement.opengov.com/portal/tucson-az
 - https://procurement.opengov.com/portal/tuolumnecountyca
 - https://procurement.opengov.com/portal/wheatridgeco
-- https://www.frederickcountymd.gov/1116/Open-Bids---Current-Solicitations (redirects to `procurement.opengov.com/portal/frederickcountymd`, same Cloudflare challenge)
 
 ## 2026-09-30 re-check: reclassified from easily_scrapable.md (login page, not a listing)
 
@@ -251,9 +249,7 @@ No JS-rendering browser was available this session (headless Chromium could not 
 - https://ecsd.bonfirehub.ca/portal/?tab=openOpportunities (AngularJS SPA shell; only feature-flag JSON and hidden empty-state template)
 - https://eprocurement.esmsolutions.com/resetpassword?Token=935c91e0-3b71-4706-88a0-2cc4dc6d5da7 (Angular `<purchase-app>` shell, loading spinner only; password-reset link, not a listing)
 - https://fairfaxcounty.bonfirehub.com/portal/?tab=openOpportunities (same Angular SPA shell pattern)
-- https://flyri.com/riac/procurement/ ("Active RFPs" table is AJAX-loaded ninja_table plus a React/OpenGov iframe; no listing text in raw HTML)
 - https://fortworthtexas.bonfirehub.com/portal/?tab=openOpportunities (same Angular SPA shell pattern)
-- https://biddingo.com/soundtransit (Angular SPA shell, `<app-root>`, no server-rendered opportunity content)
 
 Note: the Bonfire (`bonfirehub.com`/`.ca`) platform was assumed server-rendered based on earlier sessions' `?tab=openOpportunities` pages, but this batch found it inconsistent — some instances (bernco, bgca, ggbhtd, habc, homesa — see `easily_scrapable.md`) expose a public JSON API (`/PublicPortal/getOpenPublicOpportunitiesSectionData`) that returns real data even though the initial HTML is a JS template shell, while others tested here returned no accessible data at all through that same approach. Treat each Bonfire subdomain individually rather than assuming platform-wide behavior.
 
@@ -404,7 +400,6 @@ No new qualifying RFP saved: candidate keyword hits either lacked a confirmable 
 - https://onlineservices.osc.state.ny.us/Enrollment/login?17
 - https://account.bonfirehub.com/login?flow=e128e6d0-9c89-447a-a993-8965998b25cf
 - https://waukeshacounty.bonfirehub.com/opportunities/144594
-- https://sms-nola-prd.inforcloudsuite.com/fsm/SupplyManagementSupplier/page/XiSupplyManagementSupplierPage?csk.SupplierGroup=100
 - https://www.cdta.org/node/15813/register
 - https://vrapp.vendorregistry.com/Account/LogOn
 - https://vrapp.vendorregistry.com/Bids/View/BidsList?BuyerId=c5e9d3e7-b8e0-4e36-bcab-8db00d18d769
@@ -427,7 +422,6 @@ No new qualifying RFP saved: candidate keyword hits either lacked a confirmable 
 - https://access.alberta.ca/auth/realms/41898876-5358-402d-aae5-eee17a413de5/protocol/openid-connect/auth?client_id=apc-app&redirect_uri=https%3A%2F%2Fpurchasing.alberta.ca%2Fauth-callback&response_type=code&scope=openid&state=bbfd4bd389cb423a98165473274390b5&code_challenge=7gPvK1m6Ml4-FdLaOsGEF5qqfo6D4i1z5YQag7pazSY&code_challenge_method=S256&response_mode=query&apc_target=supplier
 - http://www.scsk12.org/procurement/bids
 - https://baltimorecounty.prismcompliance.com/
-- https://biddingo.com/soundtransit
 - https://apps.ideal-logic.com/uopcs
 - https://baltimorecity.diversitycompliance.com/FrontPage/VendorMain.asp?XID=2708
 - https://caleprocure.ca.gov/pages/Events-BS3/event-search.aspx
@@ -550,3 +544,12 @@ No new qualifying RFP saved: candidate keyword hits either lacked a confirmable 
 - https://www.mecknc.gov/finance/procurement/Pages/default.aspx
 - https://www.nyscr.ny.gov/login.cfm
 - https://www.californiabids.com/bid_opportunities/
+
+
+## 2026-11-21 session (Playwright-rendered sweep)
+
+- https://snoco.procureware.com/login (HTTP 403; bot-check/WAF/access denied)
+- https://stillwater.ionwave.net/Login.aspx (login/registration wall; no public listing at this URL)
+- https://tarrantcountytx.ionwave.net/Login.aspx (login/registration wall; no public listing at this URL)
+- https://uiebid.ionwave.net/Login.aspx (login/registration wall; no public listing at this URL)
+- https://upstream.dc.gov/Sourcing/Main/ad/loginPage/SSOActions?awsso_cc=passwordadapter%3AU291cmNpbmdTdXBwbGllclVzZXI%3D%3Bawsso_ru%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbj9wYXNzd29yZGFkYXB0ZXI9U291cmNpbmdTdXBwbGllclVzZXI%3D%3Bawsso_lu%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbi9hZC9jbGllbnRMb2dvdXQvU1NPQWN0aW9ucw%3D%3D%3Bawsso_ap%3AQUNN%3Bawsso_arid%3AMTY4ODk5MzA3NjY0NA%3D%3D%3Bawsso_ku%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbi9hZC9jbGllbnRLZWVwQWxpdmUvU1NPQWN0aW9ucw%3D%3D%3Bawsso_fl%3AMQ%3D%3D&awsso_ap=ACM&awsso_hpk=true&passwordadapter=SourcingSupplierUser&awsr=true (SAP Ariba SSO login page; no public listing rendered)

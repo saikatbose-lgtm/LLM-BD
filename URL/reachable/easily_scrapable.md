@@ -199,3 +199,14 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
   - Georgia "Legal and Contract Software" (eRFI, open 2026-09-30, closes 2026-10-28) matches no approved keyword.
   - Anchorage RFP 2026P044 (due 2026-10-16) shows no issue or start date.
 - JavaScript-only portals (e.g. Bonfire) returned shell pages and were not verified.
+
+## 2026-11-21 session (Playwright-rendered sweep)
+
+Moved from `blocked.md` after the listing rendered publicly in a real browser this run (earlier curl-only checks saw only JS shells/challenges), plus newly sorted URLs.
+
+- https://biddingo.com/soundtransit (5 November-issued solicitation(s) saved; listing rendered without login in headless Chromium)
+- https://flyri.com/riac/procurement/ (2 November-issued solicitation(s) saved; listing rendered without login in headless Chromium)
+- https://sms-nola-prd.inforcloudsuite.com/fsm/SupplyManagementSupplier/page/XiSupplyManagementSupplierPage?csk.SupplierGroup=100 (10 November-issued solicitation(s) saved; listing rendered without login in headless Chromium)
+- https://www.frederickcountymd.gov/1116/Open-Bids---Current-Solicitations (2 November-issued solicitation(s) saved; listing rendered without login in headless Chromium)
+- https://valenciacollege.edu/employees/procurement/solicitations.php (2 November-issued solicitation(s) saved)
+- https://ww3.nysif.com/FooterPages/Column1/AboutNYSIF/Procurement (page loaded; November dates present are closing/due/notice dates only - no confirmable November issue date)
