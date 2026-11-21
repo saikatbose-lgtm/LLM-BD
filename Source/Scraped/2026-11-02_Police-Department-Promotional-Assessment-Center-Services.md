@@ -1,0 +1,37 @@
+# Police Department Promotional Assessment Center Services
+
+#2026-11-02
+rfp name: Police Department Promotional Assessment Center Services
+
+- **RFP / Solicitation Number:** RFP27-20022-KM
+- **Agency / Organization:** City of Lubbock - M0007
+- **Posted Date:** 2026-11-02
+- **Issue / Start Date:** 2026-11-02
+- **End / Closing Date:** 11/17/2026 3:00 PM
+- **Due Date:** 11/17/2026 3:00 PM
+- **Question Submission Due Date:** Not available
+- **POC / Buyer:** Not available
+- **Location:** Texas
+- **Solicitation Type:** Not stated
+- **Status:** ESBD status: Closed
+- **Match Status:** Unmatched
+- **Matched Keywords:** None
+- **NAICS / NIGP / UNSPSC Codes:** 92400-Educational/Training Services; 92420-Examination And Testing; 90783-Testing Services; 25080-Tests, Answer Sheets, Scoring Keys, etc., Electronic Data Processing (EDP) Systems;
+- **Source URL:** https://www.txsmartbuy.com/esbd
+- **Retrieved:** 2026-11-21 (UTC)
+
+## Description
+
+ESBD listing. NIGP: 92400-Educational/Training Services;
+92420-Examination And Testing;
+90783-Testing Services;
+25080-Tests, Answer Sheets, Scoring Keys, etc., Electronic Data Processing (EDP) Systems;
+
+## Relevance
+
+**Unmatched.** Based on the title and description and listed codes (92400-Educational/Training Services; 92420-Examination And Testing; 90783-Testing Services; 25080-Tests, Answer Sheets, Scoring Keys, etc., Electronic Data Proc), this is a engineering, architectural, surveying or environmental professional service ("Police Department Promotional Assessment Center Services"). None of the approved keywords (IT services/staffing/IT or management consulting/data, records or business-support services) or IT/staffing NAICS/NIGP/UNSPSC codes genuinely describes the solicited work.
+
+## Source
+
+- Official source: https://www.txsmartbuy.com/esbd
+- Detail / listing link: https://www.txsmartbuy.gov/esbd/RFP27-20022-KM

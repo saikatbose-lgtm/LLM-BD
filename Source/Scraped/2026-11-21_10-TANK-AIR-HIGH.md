@@ -1,0 +1,34 @@
+# 10--TANK,AIR,HIGH
+
+#2026-11-21
+rfp name: 10--TANK,AIR,HIGH
+
+- **RFP / Solicitation Number:** Not available
+- **Agency / Organization:** Not available (locked to registered BidNet members)
+- **Posted Date:** 2026-11-21
+- **Issue / Start Date:** 2026-11-21
+- **End / Closing Date:** 2026-11-30
+- **Due Date:** 2026-11-30
+- **Question Submission Due Date:** Not available
+- **POC / Buyer:** Not available
+- **Location:** PRESSURE Ohio
+- **Solicitation Type:** Not stated
+- **Status:** Not available
+- **Match Status:** Unmatched
+- **Matched Keywords:** None
+- **NAICS / NIGP / UNSPSC Codes:** Not available
+- **Source URL:** https://www.bidnetdirect.com/public/solicitations/open
+- **Retrieved:** 2026-11-21 (UTC)
+
+## Description
+
+First page of BidNet Direct national open-solicitations listing only (federal/DLA-style part number notice); details locked to registered members.
+
+## Relevance
+
+**Unmatched.** Based on the listing title (no fuller description published on the public listing), this is a facility maintenance or operational service ("10--TANK,AIR,HIGH"). None of the approved keywords (IT services/staffing/IT or management consulting/data, records or business-support services) or IT/staffing NAICS/NIGP/UNSPSC codes genuinely describes the solicited work.
+
+## Source
+
+- Official source: https://www.bidnetdirect.com/public/solicitations/open
+- Detail / listing link: https://www.bidnetdirect.com/ohio/solicitations/open-bids/statewide/10-TANK-AIR-HIGH-PRESSURE/2724130367

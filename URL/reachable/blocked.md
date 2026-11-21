@@ -550,3 +550,169 @@ No new qualifying RFP saved: candidate keyword hits either lacked a confirmable 
 - https://www.mecknc.gov/finance/procurement/Pages/default.aspx
 - https://www.nyscr.ny.gov/login.cfm
 - https://www.californiabids.com/bid_opportunities/
+
+## 2026-11-21 scheduled session (all 385 URLs individually attempted)
+
+### Login required
+
+- http://norta.procureware.com/login — Login required — no public solicitation listing visible
+- http://procurement.opengov.com/ — Login required — no public solicitation listing visible
+- https://access.alberta.ca/auth/realms/41898876-5358-402d-aae5-eee17a413de5/protocol/openid-connect/auth?client_id=apc-app&redirect_uri=https%3A%2F%2Fpurchasing.alberta.ca%2Fauth-callback&response_type=code&scope=openid&state=bbfd4bd389cb423a98165473274390b5&code_challenge=7gPvK1m6Ml4-FdLaOsGEF5qqfo6D4i1z5YQag7pazSY&code_challenge_method=S256&response_mode=query&apc_target=supplier — Login required — no public solicitation listing visible
+- https://account.bonfirehub.com/login?flow=e128e6d0-9c89-447a-a993-8965998b25cf — Login required — no public solicitation listing visible
+- https://app01.jaggaer.com/apps/Router/BrandedSupplierHome?CustOrg=GIT&supplierID=1007876976&tmstmp=1763649218182 — Login required — no public solicitation listing visible
+- https://app01.jaggaer.com/apps/Router/BrandedSupplierHome?CustOrg=UMich&supplierID=1007876976&tmstmp=1750096171684 — Login required — no public solicitation listing visible
+- https://app01.jaggaer.com/apps/Router/BrandedSupplierHome?tmstmp=1733233768378 — Login required — no public solicitation listing visible
+- https://app01.jaggaer.com/apps/Router/BrandedSupplierHome?tmstmp=1757684588373 — Login required — no public solicitation listing visible
+- https://app01.jaggaer.com/apps/Router/BrandedSupplierHome?tmstmp=1768591824093 — Login required — no public solicitation listing visible
+- https://app01.jaggaer.com/apps/Router/BrandedSupplierHome?tmstmp=1769709497801 — Login required — no public solicitation listing visible
+- https://app01.jaggaer.com/apps/Router/BrandedSupplierHome?tmstmp=1782391392219 — Login required — no public solicitation listing visible
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=CalState — Login required — no public solicitation listing visible
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=CalState&AuthToken=1%3AAES2%23COeR%2B9y0uJonDteiKZ%2BEXAT%2F0wQEtmCgTPxmtdhiaPctxEQmexjpjCV4N49d5X3drP1zeuVcth%2FPIsK26ub%2FRR7PdwEzslABhuOduB5H9gT3N0M3ug%2FeRnMZKr3z3NgtkQNLRexTFFmXjo%2BndLeXxoucMxlzNwPcEg%3D%3D&SuccessToken=3&URL=ViewSourcingEvent%3FAuthToken%3D1%253AAES2%2523COeR%252B9y0uJonDteiKZ%252BEXAT%252F0wQEtmCgTPxmtdhiaPctxEQmexjpjCV4N49d5X3drP1zeuVcth%252FPIsK26ub%252FRR7PdwEzslABhuOduB5H9gT3N0M3ug%252FeRnMZKr3z3NgtkQNLRexTFFmXjo%252BndLeXxoucMxlzNwPcEg%253D%253D%26CustOrg%3DCalState%26EventId%3D1236956%26SupplierId%3D%26tmstmp%3D1721417133691 — Login required — no public solicitation listing visible
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=DASIowa&AuthToken=1%3AAES2%23CPmLxE194MfNW61Rm11HoQxaKwxKFaW1exWmJwCj40cAzNj7b2BIxBPkLEOcvTtX%2BpJDJkJ5Cx8If85U3HHktBs0WUA2FhXYx4ylKZlWe6Dl8ZUiNC7QW2%2FpGQ9owC7ixKRB2jAVqLQgkMmXJenZQt6oet7RoJWDSA%3D%3D&SuccessToken=3&URL=ViewSourcingEvent%3FAuthToken%3D1%253AAES2%2523CPmLxE194MfNW61Rm11HoQxaKwxKFaW1exWmJwCj40cAzNj7b2BIxBPkLEOcvTtX%252BpJDJkJ5Cx8If85U3HHktBs0WUA2FhXYx4ylKZlWe6Dl8ZUiNC7QW2%252FpGQ9owC7ixKRB2jAVqLQgkMmXJenZQt6oet7RoJWDSA%253D%253D%26CustOrg%3DDASIowa%26EventId%3D1308705%26SupplierId%3D%26tmstmp%3D1745010830840 — Login required — no public solicitation listing visible
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=MDAndersonPS — Login required — no public solicitation listing visible
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=TriC — Login required — no public solicitation listing visible
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=UConnFullSuite&AuthToken=1%3AAES2%23CHQBTNcjglgXPI2CtvId3j%2BfPuY04WnaPu%2BnsBcMS8bZ215VDuSfTwsRpPtX3iWiCmxfORXDKW1ZbzYtVoPOKlk1OZVSrvaXn6Zj%2FalXbKWUgJXI%2F4ESN2t3wNRSEH%2Fp3h58an4O5hfgusRc8pKjXGdlS7pAYojg2g%3D%3D&SuccessToken=3&URL=ViewSourcingEvent%3FAuthToken%3D1%253AAES2%2523CHQBTNcjglgXPI2CtvId3j%252BfPuY04WnaPu%252BnsBcMS8bZ215VDuSfTwsRpPtX3iWiCmxfORXDKW1ZbzYtVoPOKlk1OZVSrvaXn6Zj%252FalXbKWUgJXI%252F4ESN2t3wNRSEH%252Fp3h58an4O5hfgusRc8pKjXGdlS7pAYojg2g%253D%253D%26CustOrg%3DUConnFullSuite%26EventId%3D1385650%26SupplierId%3D%26tmstmp%3D1777294149216 — Login required — no public solicitation listing visible
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=UIdaho — Login required — no public solicitation listing visible
+- https://app01.jaggaer.com/apps/Router/SupplierLogin?CustOrg=URI — Login required — no public solicitation listing visible
+- https://apps.ideal-logic.com/uopcs — Login required — no public solicitation listing visible
+- https://bidportal.ksu.edu/Module/Tenders/en/Vendor/Dashboard/70f4d5cf-dabf-47c6-a618-3522733a7088 — Login required — no public solicitation listing visible
+- https://certification-app.sbsd.virginia.gov/boLogin — Login required — no public solicitation listing visible
+- https://cityofbonitasprings.procureware.com/login — Login required — no public solicitation listing visible
+- https://claytonk12ga.bonfirehub.com/login — Login required — no public solicitation listing visible
+- https://cob.procureware.com/login — Login required — no public solicitation listing visible
+- https://dir.my.site.com/BidStamp/VIS_CustomLogin — Login required — no public solicitation listing visible
+- https://ejbs.fa.us6.oraclecloud.com/supplierPortal/faces/FndOverview?fndGlobalItemNodeId=itemNode_supplier_portal_supplier_portal — Login required — no public solicitation listing visible
+- https://eprocurement.esmsolutions.com/resetpassword?Token=935c91e0-3b71-4706-88a0-2cc4dc6d5da7 — Login required — no public solicitation listing visible
+- https://esupplier.erp.delaware.gov/psc/fn92pdesup/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_REG_CMP_FL.GBL — Login required — no public solicitation listing visible
+- https://fscm.teamworks.georgia.gov/psc/supp/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL? — Login required — no public solicitation listing visible
+- https://hcpss.bonfirehub.com/login — Login required — no public solicitation listing visible
+- https://hub.edison.tn.gov/psc/fsprd/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?LP=EP_COSP_PUBLIC_HOME_FL& — Login required — no public solicitation listing visible
+- https://idcs-9275a5d3c7c74bb390dab405c8de5456.identity.oraclecloud.com/ui/v1/signin — Login required — no public solicitation listing visible
+- https://lagoverpvendor.doa.louisiana.gov/irj/portal — Login required — no public solicitation listing visible
+- https://lawa.bonfirehub.com/login — Login required — no public solicitation listing visible
+- https://login.neighborlysoftware.com/neighborlysoftware.onmicrosoft.com/oauth2/v2.0/authorize?p=b2c_1_signinsignup_prod&client_id=ab730151-4ac5-4b8c-bdd3-4c0f1bffa3a4&response_type=code%20id_token%20token&scope=openid%20email%20profile%20offline_access%20https%3A%2F%2Fneighborlysoftware.onmicrosoft.com%2Fab730151-4ac5-4b8c-bdd3-4c0f1bffa3a4%2FPortal.Read&state=OpenIdConnect.AuthenticationProperties%3DRibwqB29N7HFG%2FlYtBVU9VQQ%2F47hId8udQ7Qgw4gCV5RWxEAhOVi1FNfkygg3UHLQ92Mm5nrr7PtxBGK1Ctu7VQZKAYDWo1Zw0GNewqepMxUgBtdID6wPyRuFfOCGSGsZoucI%2BKrCfxrtk7ZCE%2FsJ6Fer9k%2FkgDMMI%2Bj5ydxbYJsha6Ju%2BbwJkxl2iKxSiWbg7bz%2BzIArwJ%2BKqV8SCsJ5z%2FkyP%2BUts8TiW0nywmKbnDvMxsR8D%2B5A4UNFkxpwjbymbOFiHW9PXRCHqkEhImRWJSDNKMCqIj80loL00VhBpNteMaRXZDaK%2BHEml%2Fw1MkUBLxhoIJQTxiupyJBRNxRhG6dB%2BbWh7CUp1uHipB2lRr8sAjsfh8IPD18auSh31%2Byv71fC0%2FI2e7Kct5SLawcqg%3D%3D&response_mode=form_post&nonce=639174124887079482.NGJmZDQ0N2EtZjkwNi00ZmY4LWI4MWItNmRkMDcwMTQyNTIzMzYyNWQ4MWUtMjExYy00Yjc4LThlMDYtOWJlZDA4YzNhZDdi&tenantCode=waterlooia&portalType=contractor&nTenantId=490&ui_locales=en&machineCode=00000000-0000-0000-0000-000000000000&redirect_uri=https%3A%2F%2Fportal.neighborlysoftware.com%2Floginredirectcomplete&post_logout_redirect_uri=https%3A%2F%2Fportal.neighborlysoftware.com%2Fwaterlooia%2Fcontractor&x-client-SKU=ID_NET472&x-client-ver=7.5.0.0 — Login required — no public solicitation listing visible
+- https://marketplace.unisonglobal.com/login.do?resource_name=marketplace — Login required — no public solicitation listing visible
+- https://mtc.bonfirehub.com/login — Login required — no public solicitation listing visible
+- https://myncid.nc.gov/index.html — Login required — no public solicitation listing visible
+- https://myncid.nc.gov/index.html#/main/userProfile — Login required — no public solicitation listing visible
+- https://ntmwd.bonfirehub.com/registration — Login required — no public solicitation listing visible
+- https://oklahoma.gov/omes/divisions/central-purchasing/suppliers-and-payees/supplier-portal.html — Login required — no public solicitation listing visible
+- https://onesource.wsscwater.com//OA_HTML/RF.jsp?function_id=1016386&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=PhlO--YbzhGGoNoQiWelCZh8E6l6Vyf-l4j.nKjuI12HTsr8tTeQfKj07gHqCs2V0m07ZPkHnatj9d0m7aE2QQ&oas=hqMw_v58KSRcN5hDt1ZHUg — Login required — no public solicitation listing visible
+- https://onesource.wsscwater.com/OA_HTML/RF.jsp?function_id=1016386&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=PhlO--YbzhGGoNoQiWelCZh8E6l6Vyf-l4j.nKjuI12HTsr8tTeQfKj07gHqCs2V0m07ZPkHnatj9d0m7aE2QQ&oas=hqMw_v58KSRcN5hDt1ZHUg — Login required — no public solicitation listing visible
+- https://passport.cityofnewyork.us/page.aspx/en/buy/homepage/ven — Login required — no public solicitation listing visible
+- https://pro.prismcompliance.com/ — Login required — no public solicitation listing visible
+- https://pro.prismcompliance.com/default.aspx — Login required — no public solicitation listing visible
+- https://procurement.opengov.com/login — Login required — no public solicitation listing visible
+- https://procurement.opengov.com/vendors/155272/proposals — Login required — no public solicitation listing visible
+- https://proportal.sourcewell-mn.gov/Module/Tenders/en/Vendor/Dashboard/b50f7d44-0fe6-4ffe-8621-fbae66354482 — Login required — no public solicitation listing visible
+- https://scottsdaleaz.bonfirehub.com/login — Login required — no public solicitation listing visible
+- https://security.app.cpa.state.tx.us/Public/login?logout — Login required — no public solicitation listing visible
+- https://sms-idaho-prd.tam.inforgov.com/sso/SSOServlet?_action=LOGINREQD&_logininst=W68E33gEyArMeQNVR!2B0pO4UAJK!2BQjvLlYP!2BnbMhYU2hA39DrCszSxwAAAYqPkSI!2F&_TKM=492813489&_serviceName=FSM.IEFINAPP.SUPPLYMANAGEMENTSUPPLIER — Login required — no public solicitation listing visible
+- https://sms-idaho-prd.tam.inforgov.com/sso/SSOServlet?_action=TIMEOUTASSERT&_ssoOrigUrl=https%3A%2F%2Fsms-idaho-prd.tam.inforgov.com%3A443%2Ffsm%2FSupplyManagementSupplier%2Fpage%2FXiSupplyManagementSupplierPage%3Fcsk.SupplierGroup%3DLUMA&_TKM=372688986&_serviceName=FSM.IEFINAPP.SUPPLYMANAGEMENTSUPPLIER&LoginId=business-development@ommincorp.com — Login required — no public solicitation listing visible
+- https://snoco.procureware.com/login — Login required — no public solicitation listing visible
+- https://solutions.sciquest.com/apps/Router/BrandedSupplierHome?CustOrg=UCOP&supplierID=1007876976&tmstmp=1738093109276 — Login required — no public solicitation listing visible
+- https://solutions.sciquest.com/apps/Router/SupplierLogin — Login required — no public solicitation listing visible
+- https://solutions.sciquest.com/apps/Router/SupplierLogin?CustOrg=DASIowa — Login required — no public solicitation listing visible
+- https://solutions.sciquest.com/apps/Router/SupplierLogin?CustOrg=Princeton&isLogout=true&tmstmp=1716220417643 — Login required — no public solicitation listing visible
+- https://solutions.sciquest.com/apps/Router/SupplierLogin?CustOrg=StateOfUtah&isLogout=true&tmstmp=1699984786288 — Login required — no public solicitation listing visible
+- https://solutions.sciquest.com/apps/Router/SupplierLogin?GSPSupplier_Login_Email=Business-development%40ommincorp.com&CustOrg=StateOfMontana&SuccessToken=1&tmstmp=1695233574600 — Login required — no public solicitation listing visible
+- https://solutions.sciquest.com/apps/Router/SupplierPortalHome?tmstmp=1699981963442 — Login required — no public solicitation listing visible
+- https://solutions.sciquest.com/apps/Router/SupplierWelcome?CustOrg=TriMet&supplierID=1007876976&tmstmp=1704204983800 — Login required — no public solicitation listing visible
+- https://strathcona.bonfirehub.ca/login — Login required — no public solicitation listing visible
+- https://supplier.esmsolutions.com/home — Login required — no public solicitation listing visible
+- https://supplier.ionwave.net/Vendor/VendorHome.aspx — Login required — no public solicitation listing visible
+- https://supplier.ionwave.net/VendorLogin.aspx — Login required — no public solicitation listing visible
+- https://supplier.ionwave.net/VendorResponse/ResponseList.aspx?status=AVAILABLE — Login required — no public solicitation listing visible
+- https://supplier.sok.ks.gov/psc/sokfsprdsup/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_REG_CMP_FL.GBL — Login required — no public solicitation listing visible
+- https://supplierservice.sanantonio.gov/irj/portal — Login required — no public solicitation listing visible
+- https://supplierservice.sanantonio.gov/irj/portal#12587465-vendor-info — Login required — no public solicitation listing visible
+- https://tohowater.bonfirehub.com/login/forgot — Login required — no public solicitation listing visible
+- https://upstream.dc.gov/Sourcing/Main/ad/loginPage/SSOActions?awsso_cc=passwordadapter%3AU291cmNpbmdTdXBwbGllclVzZXI%3D%3Bawsso_ru%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbj9wYXNzd29yZGFkYXB0ZXI9U291cmNpbmdTdXBwbGllclVzZXI%3D%3Bawsso_lu%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbi9hZC9jbGllbnRMb2dvdXQvU1NPQWN0aW9ucw%3D%3D%3Bawsso_ap%3AQUNN%3Bawsso_arid%3AMTY4ODk5MzA3NjY0NA%3D%3D%3Bawsso_ku%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbi9hZC9jbGllbnRLZWVwQWxpdmUvU1NPQWN0aW9ucw%3D%3D%3Bawsso_fl%3AMQ%3D%3D&awsso_ap=ACM&awsso_hpk=true&passwordadapter=SourcingSupplierUser&awsr=true — Login required — no public solicitation listing visible
+- https://upstream.dc.gov/Sourcing/Main?realm=System&passwordadapter=SourcingSupplierUser&awsso_tkn=24MUzqrzky68f28a69a52257ff — Login required — no public solicitation listing visible
+- https://vendor.myfloridamarketplace.com/login — Login required — no public solicitation listing visible
+- https://ventura.bonfirehub.com/registration — Login required — no public solicitation listing visible
+- https://www.centralauctionhouse.com/login.php — Login required — no public solicitation listing visible
+- https://www.cpsk12bids.com/auth/login — Login required — no public solicitation listing visible
+- https://www.demandstar.com/app/suppliers/bids — Login required — no public solicitation listing visible
+- https://www.infotechexpress.com/business — Login required — no public solicitation listing visible
+- https://www.mymta.info/psc/VENDOR/GUEST/SUPP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL — Login required — no public solicitation listing visible
+- https://www.mymta.info/psc/VENDOR/SUPPLIER/SUPP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?&lp=SUPP.SUPPLIER.B_ESUP_SECURE_FL_HP&lp=SUPP.SUPPLIER.B_ESUP_SECURE_FL_HP — Login required — no public solicitation listing visible
+- https://www.myvendorlink.com/external/login — Login required — no public solicitation listing visible
+- https://www.nunavuttenders.ca/UploadBidderTC.aspx — Login required — no public solicitation listing visible
+- https://www.ptcvendorportal.com/ — Login required — no public solicitation listing visible
+- https://www.ptcvendorportal.com/#/sp/auth/signin — Login required — no public solicitation listing visible
+- https://www.voa.va.gov/default.aspx?PageId=1 — Login required — no public solicitation listing visible
+- https://yvr.bonfirehub.ca/login — Login required — no public solicitation listing visible
+
+### Broken / error page (FAILED this run)
+
+- http://www.mncppc.org/register.html — Navigation error/timeout: page.goto: net::ERR_TOO_MANY_REDIRECTS at http://www.mncppc.org/register.html
+- https://contracts-marioncountygcc.msappproxy.net/gateway/Login.aspx — Navigation error/timeout: page.goto: Timeout 45000ms exceeded.
+- https://dmschools.procureware.com/Companies?t=Info — HTTP 404 error page
+- https://health.maryland.gov/procumnt/pages/procopps.aspx?utm_source=chatgpt.com — HTTP 404 error page
+- https://idm-global.j1p.jaggaer.com/auth/realms/j1p-supplier-idm/login-actions/authenticate?client_id=prod-idp.app.jaggaer.com&tab_id=DvM31H7SmPk — HTTP 400 error page
+- https://login-euxp-saasfaprod1.fa.ocs.oraclecloud.com/oam/server/obrareq.cgi?ECID-Context=1.0062xRLviAgFS8V5u30FyX0007aI0003xm%3BkXjE — HTTP 503 error page
+- https://login-exkk-saasfaprod1.fa.ocs.oraclecloud.com/oam/server/obrareq.cgi?encquery%3D5KbKcxXM%2Fj31a5DXL88CkKQxNL8xTgjx4o0T1qvnZ%2Fm8L2PVioR3VV1mC34DycQZg0dWLUr3o1012giKiZTeLaHBd98AahIgscHY6X%2BjknHWJTGvHe2M7sMJAhATajCClH2Gx0nkCL6bzAbl%2BeHZ6uiXgB%2B2hOmd%2FQzizf5Y4YNkakpfRK5yMBTn8PZ9OsPNGrM%2B9IEZeXceK4jlLN54auwgY6%2B6KY4M7NGvbtyUVhrexBSDMkJ1OjzgiQG26s7nUNgDOOBUY1V47R2%2FWeMq%2Bd5RS64LygmWx1uZVUYM2hKWN3EGASc%2FSKuhZmDEEqqbRerUTv8simlP4wr9hR9Mpg0V0hRCebgR0PJpg4%2BHF7Ag3SZ7q9E7%2BHfRzp%2F3W%2B3GmJQk%2BTkTLecO55P653z0xHK1qj1hCGfUC%2F7kmkzXjp1zFdxcYxy0Wmms4vL3XeoVshFxno55Xarw4aCIFXtNTxZWRW7uf5m0Zw2p6WcH89Wrs2vxPwt6PMezO3rioKyymXYA0SEkvDg3C%2FapCuEENBINGbNbfVXmU9HJ3r8XnlclYMyGyIGLAznYm98%2BiO%2F0AWsh3bbiaxSI9qt8veZReDf6Rn9T76JBWjcttWwXXZET%2BU4t5KxKqJ1QJxPAEhmZzJZ2sRAm4bRXVI4ODGQRpEciLt8Lj3lB9rFv9tqgF10%3D%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2%26cksum%3D75ca2eec8e5ee3dbd0b2a672207ad24ecf7dc56a&ECID-Context=1.006Ivf_oUN8AxGKayTaeMG0060Ok0001FM%3BkXjE — HTTP 503 error page
+- https://login-ibqhjb.fa.ocs.oraclecloud.com/oam/server/obrareq.cgi?encquery%3DxS138OL6YUFqo5kXqhatUBRr5X3V1RGL4k%2Bz0kVeSsDqPlMtLQOkCPPbjyD9zFAHBZaV%2B4%2Bm1%2BC15RRXqDUzJfqgkiyvt3ZB8iYpaRVN9qApx0UAl6kxqVcVIFnLXt9LuTk4KALc3n4SIQddr6q6%2BOFzVzgiKyWa3cqoE2V12YBzK8Pi2SYryl1afztYU9JVUJP29U%2FlKJqV7biRJbQE9H2sPdqJv3kpoyqbSpybx21q5XYhaPoGc2tLTa6xi%2FRfih66LyuMO4FMp8vH5zA12aZ9ltzcyzAVFI3x7uQLcAh6pHQm7VqoYEwfyhjgh7FaYQ9cE67Q%2BeRAkhh0r5dlkA%2Fjbd93rdrtDAMuzNqFGgeGYMM%2F3wqSyRTAXhDr9kp1RGsdNmsK1lr6FA9OZ2brJTDDbjPwVNPLMB3TyYleKacbH9%2FXviCjUQ%2FHwzgt5a9ZuBGEumvbK0TxwMpgsJ0yu0jXJ6%2BfZNKN5%2FaG4Pxi2jY47gyzltsiogFvef6dIlZzVXVFjPIDgDWoc%2BR0v7%2BtJDZbAdRc3bNMWuWNuFlHz2%2BemlSYNUCtIqoSCOFJ3PMxgHpdIwsCoLnHZ1A0BPrjrnmeJlZ1BLCj1XMN8aCDPaJXMm8GUoFpBDoJcVgnroYkpEYrk4FICQDlSWQJyHDEZvAyf8mrlleFvHliIKe7iqCM0VrJPJxOx3XLM4%2FFoSIgzv34BqFfX4c4fRTLYbEEbRj5%2FXmyMe04mzMmfdsm1rdZs7boBYCvTXKmhklZQme33TFM26PGec1T0ZnFkODoiPWb3%2FSouG2DGmvCBo7uh0cfmdMNlRngKQDEg9Gi8IlTDr5a4zrqqOzUe5eYoFAwMHRnZ%2Bi9XY%2B%2FbqXxXqBVLWnW6hwImdtNFjXGJuER7GbvbnYWaahNTQQ5aBDezpKFOUdrjSKzI6ICdCnXnnpPo%2BgKo9HQXsMrFc89CE%2BnPbXiforjn%2FjUa7sPlnIN3occRYXNafpmYekQzHYI%2F5J1L1TsBHOdebeWGx20HeLYJXFOWGup58ViARCFzp0cgp8GZntiBKsdecvdg97v5k3sO5HEWS96IYcQHlDmXIdsdBsPOG1cvSJ1JixuseaaZM5OMnOTxpsV1uToblun5Vs6DfOgTv3VUQXVevMFCyC%2BTBucOnTiZCfdT92T%2Bp1XkdveKsJ2jeRebG165AKqLnEJ5eZQhBs6eWn9v%2FRow0mdfeKFavO7Fr%2FXELn9GXe13oQh0sy0RX4kW1qvKVWgI9%2FfiVQMikBsESPOFMA5dwtAFr%2BggEb7aYvdjXYs6zvmlxNxNyXwN2m3GcH7mf%2FopLRrFKVdnqD00kjja5i%2FNebYOfMTMGLVHIoL5EorazZ1hyrc2bafEjj63su3Ns2ltD0kTZvQpgdySfeQEZ21WjibhABsOHZ9SPQE91Ss5TAF6LYkOztU1VyaPmp5g%2BEwbirV3o%2FDo9a%2Fi%2By%2BFvDpPWBkpt2bIHXxWj%2F3699%2BniBsU97TRPn3nRmAmTie6HCRb0kH4k1oTrl70mjMjsI8O3bhdvhj1EnFU8r6ZSszcyTneTE%2Bma7MCYbylmnwQppds6nbIQFyzq4UMv1nLeAS3MHFZkThUexNB165wz0ycXAKMEqID%2FiVHZok2XfhRFfcA2bIk7Y%2FiBD1CplaGU%2F30%2FTC0u61H3iD5Hulp7L5f7jBTp5IjQ%3D%3D%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2%26cksum%3Db7d14dfa13cdabd935ca9c7841fb201bfe34a229&ECID-Context=1.006Ji0n6W6n2FSMqyKvX6G003mVL0000wW%3BkXjE — HTTP 503 error page
+- https://mevss.hostams.com/PRDVSS1X1/AltSelfService — HTTP 404 error page
+- https://octa.govqa.us/WEBAPP/_rs/(S(hn5r0labmmsdycjs2dfu2bmf — HTTP 404 error page
+- https://vendors.planetbids.com/ — Navigation error/timeout: page.goto: net::ERR_TOO_MANY_REDIRECTS at https://vendors.planetbids.com/
+- https://via.diversitycompliance.com/FrontPage/VendorMain.asp?XID=9510 — HTTP 404 error page
+- https://www.instantmarkets.com/home — HTTP 503 error page
+- https://www.mecknc.gov/finance/procurement/Pages/default.aspx — HTTP 404 error page
+- https://www.nyscr.ny.gov/login.cfm — HTTP 404 error page
+
+### CAPTCHA / Cloudflare / WAF block
+
+- https://alabamabuys.gov/page.aspx/en/sup/registration_extranet/save — Bot-check / CAPTCHA / WAF block (HTTP 200)
+- https://apps.das.nh.gov/bidscontracts/bids.aspx — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://comet-fs.ci.minneapolis.mn.us/psc/supplier/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?&lp=ERP.SUPPLIER.EP_COSP_PUBLIC_HOME_FL — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://fms-prd.ps.sc.edu/psc/FPRD/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL? — Bot-check / CAPTCHA / WAF block (HTTP 200)
+- https://govwhitepapers.com/?utm_source=GovEvents&utm_medium=NavBar — Bot-check / CAPTCHA / WAF block (HTTP 429)
+- https://guest.supplier.systems.state.mn.us/psc/fmssupap/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL — Bot-check / CAPTCHA / WAF block (HTTP 200)
+- https://hacp.org/profile/business-developmentommincorp-com/ — Bot-check / CAPTCHA / WAF block (HTTP 404)
+- https://hosting.portseattle.org/sops/ — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://hosting.portseattle.org/sops/#/Dashboard — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://lacounty.gov/business/doing-business-with-la-county/lac-purchasing-and-contract-opportunities/ — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://login.ehawaii.gov/lala — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://my.alaska.gov/adfs/ls/?wa=wsignin1.0&wtrealm=https%3a%2f%2fmy.alaska.gov%2f&wctx=rm%3d0%26id%3dpassive%26ru%3d%252fPortal%252fPortal.aspx&wct=2023-11-24T17%3a55%3a54Z — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procure.cgieva.com/page.aspx/en/sup/registration_extranet/save — Bot-check / CAPTCHA / WAF block (HTTP 200)
+- https://procurement.opengov.com/portal/aurorail — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/baltimorecountymd — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/bft — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/bloomingtonin — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/brevardschools — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/cheyennecity — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/cityofbradenton — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/cityofedinburg — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/cityofhomestead — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/cityofnsb — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/cityoftampa — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/clevelandoh — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/co-hidalgo-tx — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/lompoc — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/morenovalley — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/oak-brook — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/pasadena — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/pinoleca — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/rtd-denver — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/saccounty — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/santacruzca — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/smcgov — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/stpete — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/tucson-az — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/tuolumnecountyca — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://procurement.opengov.com/portal/wheatridgeco — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://smctd.bonfirehub.com/opportunities/112297 — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://vrapp.vendorregistry.com/Account/LogOn — Bot-check / CAPTCHA / WAF block (HTTP 429)
+- https://waukeshacounty.bonfirehub.com/opportunities/144594 — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://www.cdta.org/node/15813/register — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://www.kalcounty.com/ — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://www.laramiecountywy.gov/Request-for-Proposals — Bot-check / CAPTCHA / WAF block (HTTP 200)
+- https://www.rfpmart.com/userlogin.html — Bot-check / CAPTCHA / WAF block (HTTP 200)
+- https://www.stlmsdplanroom.com/auth/login — Bot-check / CAPTCHA / WAF block (HTTP 403)
+- https://www.rfpmart.com/ — Bot-check / CAPTCHA / WAF block (HTTP 200)
+- https://bidranger.com/ — Bot-check / CAPTCHA / WAF block (HTTP 429)
+- https://guest.supplier.systems.state.mn.us/psc/fmssupap_20/SUPPLIER/ERP/c/SCP_PUBLIC_MENU_FL.SCP_PUB_BID_CMP_FL.GBL?PAGE=SCP_PUB_BIDLIST_FL — Bot-check / CAPTCHA / WAF block (HTTP 200)
+

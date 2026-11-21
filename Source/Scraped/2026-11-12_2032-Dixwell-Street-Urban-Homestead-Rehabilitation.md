@@ -1,0 +1,34 @@
+# 2032 Dixwell Street | Urban Homestead Rehabilitation
+
+#2026-11-12
+rfp name: 2032 Dixwell Street | Urban Homestead Rehabilitation
+
+- **RFP / Solicitation Number:** 27-30
+- **Agency / Organization:** davenport (IonWave e-bid portal)
+- **Posted Date:** 2026-11-12
+- **Issue / Start Date:** 2026-11-12
+- **End / Closing Date:** 12/10/2026 09:00:00 AM (CT)
+- **Due Date:** 12/10/2026 09:00:00 AM (CT)
+- **Question Submission Due Date:** Not available
+- **POC / Buyer:** Not available
+- **Location:** Not available
+- **Solicitation Type:** RFP
+- **Status:** Not available
+- **Match Status:** Unmatched
+- **Matched Keywords:** None
+- **NAICS / NIGP / UNSPSC Codes:** Not available
+- **Source URL:** https://davenport.ionwave.net/Login.aspx
+- **Retrieved:** 2026-11-21 (UTC)
+
+## Description
+
+IonWave public sourcing-events listing (first page).
+
+## Relevance
+
+**Unmatched.** Based on the listing title (no fuller description published on the public listing), this is a construction, renovation or public-works project ("2032 Dixwell Street | Urban Homestead Rehabilitation"). None of the approved keywords (IT services/staffing/IT or management consulting/data, records or business-support services) or IT/staffing NAICS/NIGP/UNSPSC codes genuinely describes the solicited work.
+
+## Source
+
+- Official source: https://davenport.ionwave.net/Login.aspx
+- Detail / listing link: https://davenport.ionwave.net/SourcingEvents.aspx?SourceType=1
