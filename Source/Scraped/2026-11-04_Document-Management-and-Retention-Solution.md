@@ -1,0 +1,33 @@
+# Document Management and Retention Solution
+
+#2026-11-04
+rfp name: Document Management and Retention Solution
+
+- **RFP / Solicitation Number:** Not available
+- **Agency / Organization:** Morris County / New Jersey Purchasing Group participating agency
+- **Posted Date:** 2026-11-04
+- **Issue / Start Date:** 2026-11-04
+- **End / Closing Date:** 2027-01-07
+- **Due Date:** 2027-01-07
+- **Question Submission Due Date:** Not available
+- **POC / Buyer:** Not available
+- **Location:** New Jersey
+- **Solicitation Type:** Not stated
+- **Match Status:** Matched (unconfirmed — full detail page gated behind login/paid account)
+- **Matched Keywords:** Data Entry, Scanning, Records and Document Related Services; Information Technology
+- **NAICS / NIGP / UNSPSC Codes:** Not available
+- **Source URL:** https://www.bidnetdirect.com/new-jersey/solicitations/open-bids/Document-Management-and-Retention-Solution/0000442637?purchasingGroupId=8405151&origin=1
+- **Retrieved:** 2026-11-22 (UTC)
+
+## Description
+
+Listing-level detail only. The detail page (issuing organization, number, description, documents, buyer contact) is locked to registered BidNet Direct members.
+
+## Relevance
+
+**Matched (unconfirmed — full detail page gated behind login/paid account).** Document management and retention solution — records/document management system and related services. Detail page gated; match based on listing title.
+
+## Source
+
+- Official source: https://www.bidnetdirect.com/new-jersey/solicitations/open-bids/Document-Management-and-Retention-Solution/0000442637?purchasingGroupId=8405151&origin=1
+- Listing page: http://www.morriscountybidsystem.com/

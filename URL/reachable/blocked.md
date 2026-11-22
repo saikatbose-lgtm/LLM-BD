@@ -550,3 +550,25 @@ No new qualifying RFP saved: candidate keyword hits either lacked a confirmable 
 - https://www.mecknc.gov/finance/procurement/Pages/default.aspx
 - https://www.nyscr.ny.gov/login.cfm
 - https://www.californiabids.com/bid_opportunities/
+
+## 2026-11-22 run additions (headless Chromium render)
+
+- http://njstart.gov/ — BLOCKED: login wall – listing not viewable without account (previously listed in easily_scrapable.md)
+- https://alohaebuys.hawaii.gov/bso/view/login/login.xhtml — BLOCKED: login wall – listing not viewable without account (previously listed in easily_scrapable.md)
+- https://arkansas.ionwave.net/ — BLOCKED: login wall – listing not viewable without account (previously listed in easily_scrapable.md)
+- https://camisvr.co.la.ca.us/LACoBids/BidLookUp/OpenBidList — FAILED: HTTP 403 / error page (previously listed in easily_scrapable.md)
+- https://dhr.alabama.gov/announcements/ — BLOCKED: HTTP 200 bot-check/CAPTCHA/WAF (previously listed in easily_scrapable.md)
+- https://sdbuynet.sandiegocounty.gov/page.aspx/en/usr/login — BLOCKED: login wall – listing not viewable without account (previously listed in easily_scrapable.md)
+- https://snoco.procureware.com/login — BLOCKED: login wall – listing not viewable without account
+- https://stillwater.ionwave.net/Login.aspx — BLOCKED: login wall – listing not viewable without account
+- https://tarrantcountytx.ionwave.net/Login.aspx — BLOCKED: login wall – listing not viewable without account
+- https://uiebid.ionwave.net/Login.aspx — BLOCKED: login wall – listing not viewable without account
+- https://upstream.dc.gov/Sourcing/Main/ad/loginPage/SSOActions?awsso_cc=passwordadapter%3AU291cmNpbmdTdXBwbGllclVzZXI%3D%3Bawsso_ru%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbj9wYXNzd29yZGFkYXB0ZXI9U291cmNpbmdTdXBwbGllclVzZXI%3D%3Bawsso_lu%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbi9hZC9jbGllbnRMb2dvdXQvU1NPQWN0aW9ucw%3D%3D%3Bawsso_ap%3AQUNN%3Bawsso_arid%3AMTY4ODk5MzA3NjY0NA%3D%3D%3Bawsso_ku%3AaHR0cHM6Ly91cHN0cmVhbS5kYy5nb3YvU291cmNpbmcvTWFpbi9hZC9jbGllbnRLZWVwQWxpdmUvU1NPQWN0aW9ucw%3D%3D%3Bawsso_fl%3AMQ%3D%3D&awsso_ap=ACM&awsso_hpk=true&passwordadapter=SourcingSupplierUser&awsr=true — BLOCKED: login wall – listing not viewable without account
+- https://www.commbuys.com/bso/view/login/login.xhtml — BLOCKED: login wall – listing not viewable without account (previously listed in easily_scrapable.md)
+- https://www.cpsk12bids.com/auth/login — BLOCKED: login wall – listing not viewable without account (previously listed in easily_scrapable.md)
+- https://www.myvendorlink.com/external/login — BLOCKED: login wall – listing not viewable without account (previously listed in easily_scrapable.md)
+- https://www.stlmsdplanroom.com/auth/login — BLOCKED: login wall – listing not viewable without account (previously listed in easily_scrapable.md)
+- https://bidranger.com/ — BLOCKED: HTTP 429 bot-check/CAPTCHA/WAF (previously listed in easily_scrapable.md)
+- https://www.bidcontract.com/ — FAILED: HTTP 502 / error page (previously listed in easily_scrapable.md)
+- https://eva.virginia.gov/ — BLOCKED: login wall – listing not viewable without account (previously listed in easily_scrapable.md)
+- https://www.commbuys.com/bso/ — BLOCKED: login wall – listing not viewable without account (previously listed in easily_scrapable.md)

@@ -199,3 +199,17 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
   - Georgia "Legal and Contract Software" (eRFI, open 2026-09-30, closes 2026-10-28) matches no approved keyword.
   - Anchorage RFP 2026P044 (due 2026-10-16) shows no issue or start date.
 - JavaScript-only portals (e.g. Bonfire) returned shell pages and were not verified.
+
+## 2026-11-22 run (headless Chromium render)
+
+Listings below rendered and were parsed with no login/CAPTCHA, yielding November-2026 dated solicitations; previously not listed here (some were in `blocked.md` from earlier curl-only runs).
+
+- http://www.morriscountybidsystem.com/ (rendered listing parsed 2026-11-22; previously listed in blocked.md)
+- https://biddingo.com/soundtransit (rendered listing parsed 2026-11-22; previously listed in blocked.md)
+- https://flyri.com/riac/procurement/ (rendered listing parsed 2026-11-22; previously listed in blocked.md)
+- https://sms-nola-prd.inforcloudsuite.com/fsm/SupplyManagementSupplier/page/XiSupplyManagementSupplierPage?csk.SupplierGroup=100 (rendered listing parsed 2026-11-22; previously listed in blocked.md)
+- https://valenciacollege.edu/employees/procurement/solicitations.php (rendered listing parsed 2026-11-22)
+- https://vendors.planetbids.com/portal/14599/bo/bo-search (rendered listing parsed 2026-11-22; previously listed in blocked.md)
+- https://vendors.planetbids.com/portal/23532/bo/bo-search (rendered listing parsed 2026-11-22; previously listed in blocked.md)
+- https://vendors.planetbids.com/portal/45619/bo/bo-search (rendered listing parsed 2026-11-22; previously listed in blocked.md)
+- https://www.frederickcountymd.gov/1116/Open-Bids---Current-Solicitations (rendered listing parsed 2026-11-22; previously listed in blocked.md)
