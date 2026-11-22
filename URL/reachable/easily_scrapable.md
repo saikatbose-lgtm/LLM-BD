@@ -199,3 +199,14 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
   - Georgia "Legal and Contract Software" (eRFI, open 2026-09-30, closes 2026-10-28) matches no approved keyword.
   - Anchorage RFP 2026P044 (due 2026-10-16) shows no issue or start date.
 - JavaScript-only portals (e.g. Bonfire) returned shell pages and were not verified.
+
+## 2026-11-22 run (rendered-browser sweep of all 385 URLs)
+
+Confirmed readable without login/CAPTCHA this run (full per-URL status in `URL/run_status_2026-11-22.md`):
+
+- PlanetBids agencies — even where the listed URL is a login or portal-home page, the agency's public bid search `https://vendors.planetbids.com/portal/<id>/bo/bo-search` loads with Posted dates and public detail pages (requires a normal browser user-agent). Confirmed for 37 agency IDs incl. 13821, 13982, 15300, 15381, 16151, 16725, 17950, 20134, 20314, 22078, 22576, 24660, 24661, 27996, 28789, 29744, 32621, 39471, 39475, 39495, 39501, 41576, 43728, 68007, 73214, 76708, 77636.
+- https://www.txsmartbuy.gov/esbd and https://www.txsmartbuy.com/esbd — Texas ESBD public listing (first pass timed out; loads with a longer render wait). Posting Date shown per solicitation; stable detail URLs `https://www.txsmartbuy.gov/esbd/<SolicitationID>`.
+- https://contracts-marioncountygcc.msappproxy.net/gateway/Login.aspx — login page, but the public Solicitations Search on the same gateway lists open items with release dates.
+- https://portal.ct.gov/das/ctsource/bidboard — CTsource bid board (WebProcure iframe) readable with Start Dates.
+- https://valenciacollege.edu/employees/procurement/solicitations.php — listing comes from the public VendorLink frame (myvendorlink.com/agencies/valenciacollege).
+- https://lonestar.ionwave.net/SourcingEvents.aspx?SourceType=1 — public Current Bid Opportunities with Bid Issue Date (documents need login).

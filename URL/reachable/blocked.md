@@ -550,3 +550,11 @@ No new qualifying RFP saved: candidate keyword hits either lacked a confirmable 
 - https://www.mecknc.gov/finance/procurement/Pages/default.aspx
 - https://www.nyscr.ny.gov/login.cfm
 - https://www.californiabids.com/bid_opportunities/
+
+## 2026-11-22 run notes
+
+- **Cloudflare / bot-check (detail level):** Bonfire portals (`*.bonfirehub.com` / `.ca`) — open-opportunity lists are public but show Close Date only; every `/opportunities/<id>` detail page (the only place the Open Date appears) returned a Cloudflare challenge (403). Tested on acwd, fortworthtexas, smctd, waukeshacounty; pattern assumed for the rest of the platform. The Bonfire JSON feed has no open date. Login/registration Bonfire URLs (claytonk12ga, hcpss, lawa, mtc, ntmwd, scottsdaleaz, strathcona, tohowater, ventura, yvr, account.bonfirehub.com) remain login walls.
+- **Cloudflare:** https://www.frederickcountymd.gov/1116/Open-Bids---Current-Solicitations — county page loads but the embedded OpenGov project list stops at a Cloudflare check.
+- **Login required (detail level):** https://www.bidexpress.com/businesses/85766/home?agency=true — list readable (number/description/deadline) but no issue date; detail requires Bid Express sign-in.
+- **Login required:** PlanetBids identity/login URLs (identity.planetbids.com, `/portal/<id>/login`, `/vp/vp-home`) are login walls themselves, but see `easily_scrapable.md` 2026-11-22 — the same agencies' public bo-search pages were used.
+- **Broken / error this run:** see FAILED rows in `URL/run_status_2026-11-22.md` (404s, Oracle Cloud DNS failures, NJSTART 500, bidcontract.com 502, mncppc.org DNS).

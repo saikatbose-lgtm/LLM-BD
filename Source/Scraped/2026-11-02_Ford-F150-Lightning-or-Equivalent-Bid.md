@@ -30,3 +30,7 @@ Listing title only (detail page gated); no approved keyword or code genuinely ap
 ## Source
 
 - Official source: http://www.morriscountybidsystem.com/
+
+## Update 2026-11-22
+
+- Re-published on BidNet Direct (NJ Purchasing Group) with Publication Date 2026-11-18 and closing 2026-12-02 09:30 AM EST (per the 2026-11-22 run). Treated as a republication of this same bid rather than a new record. Match Status unchanged: Unmatched.
