@@ -199,3 +199,15 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
   - Georgia "Legal and Contract Software" (eRFI, open 2026-09-30, closes 2026-10-28) matches no approved keyword.
   - Anchorage RFP 2026P044 (due 2026-10-16) shows no issue or start date.
 - JavaScript-only portals (e.g. Bonfire) returned shell pages and were not verified.
+
+
+## 2026-11-23 run (moved from `blocked.md` after headless-browser verification)
+
+These were previously recorded as blocked because a plain HTTP fetch returned only a JavaScript shell. On 2026-11-23 a headless Chromium render loaded the public listing with no login, CAPTCHA or other barrier, and dated solicitations were read directly:
+
+- http://www.morriscountybidsystem.com/ (redirects to BidNet Direct New Jersey; public open-bid list with Published/Closing dates, 108 open solicitations across 5 pages; detail pages remain members-only)
+- https://biddingo.com/soundtransit (Sound Transit bid listing with solicitation number, closing date and Date Posted columns)
+- https://sms-nola-prd.inforcloudsuite.com/fsm/SupplyManagementSupplier/page/XiSupplyManagementSupplierPage?csk.SupplierGroup=100 (City of New Orleans open events with Open/Close dates)
+- https://vendors.planetbids.com/portal/14599/bo/bo-search (County of Stanislaus; Posted date, title, number, due date)
+- https://vendors.planetbids.com/portal/23532/bo/bo-search (City of Palmdale; Posted date, title, number, due date)
+- https://vendors.planetbids.com/portal/45619/bo/bo-search (City of Inglewood; Posted date, title, number, due date)

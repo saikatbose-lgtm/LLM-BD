@@ -2,7 +2,6 @@
 
 ## Login / registration / session pages reviewed on 2026-09-26
 
-- http://www.morriscountybidsystem.com/ (redirects to `https://www.bidnetdirect.com/new-jersey`; server responds 200 with a real BidNet Direct marketing/landing page, but the page contains no bid-listing content — only "Login"/"Register" links — so no solicitation data is viewable without a BidNet account; reclassified from `easily_scrapable.md` after re-check)
 
 ## Login / registration / session pages reviewed on 2026-09-16
 
@@ -37,7 +36,6 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - https://sigma.michigan.gov/PRDVSS1X1/Advantage4 (public tiles present are Register/Announcements/Vendor Guides/Vendor Forms/Grant Opportunities only — no bid-search tile was found, though the carousel was not fully exhausted)
 - https://sms-idaho-prd.tam.inforgov.com/sso/SSOServlet?_action=LOGINREQD&... (Infor SSO)
 - https://sms-idaho-prd.tam.inforgov.com/sso/SSOServlet?_action=TIMEOUTASSERT&... (same portal)
-- https://sms-nola-prd.inforcloudsuite.com/fsm/SupplyManagementSupplier/page/XiSupplyManagementSupplierPage?csk.SupplierGroup=100 (page hung on "Loading..." and never resolved)
 - https://solutions.sciquest.com/apps/Router/BrandedSupplierHome?CustOrg=UCOP&supplierID=1007876976&tmstmp=1738093109276 (broken session / bookmark error)
 - https://solutions.sciquest.com/apps/Router/SupplierLogin (generic)
 - https://solutions.sciquest.com/apps/Router/SupplierLogin?CustOrg=BridgewaterState
@@ -73,7 +71,6 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
 - https://trstexas-supplier.ivalua.app/page.aspx/en/sup/registration_manage/2594 (browser-check CAPTCHA)
 - https://vtbuys.suppliers.vermont.gov/page.aspx/en/usr/login (browser-check CAPTCHA)
 - https://vendors.planetbids.com/ ("Human Verification" bot-check; confirmed on this URL and one sampled portal ID — all ~40 PlanetBids URLs below share this domain and are presumed blocked the same way, not individually re-tested)
-  - https://vendors.planetbids.com/portal/14599/bo/bo-search
   - https://vendors.planetbids.com/portal/14599/portal-home
   - https://vendors.planetbids.com/portal/15300/portal-home
   - https://vendors.planetbids.com/portal/15381/portal-home
@@ -87,7 +84,6 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
   - https://vendors.planetbids.com/portal/20314/portal-home
   - https://vendors.planetbids.com/portal/22078/portal-home
   - https://vendors.planetbids.com/portal/22576/bo/bo-detail/141899
-  - https://vendors.planetbids.com/portal/23532/bo/bo-search
   - https://vendors.planetbids.com/portal/23758/portal-home
   - https://vendors.planetbids.com/portal/24103/portal-home
   - https://vendors.planetbids.com/portal/24660/portal-home
@@ -101,7 +97,6 @@ Scope: this file only covers the portion of `url_reachable.md` reviewed in the 2
   - https://vendors.planetbids.com/portal/39495/login#
   - https://vendors.planetbids.com/portal/39501/portal-home
   - https://vendors.planetbids.com/portal/43728/vp/vp-home
-  - https://vendors.planetbids.com/portal/45619/bo/bo-search
   - https://vendors.planetbids.com/portal/49906/vp/vp-home
   - https://vendors.planetbids.com/portal/53010/portal-home
   - https://vendors.planetbids.com/portal/59724/vp/vp-home
@@ -253,7 +248,6 @@ No JS-rendering browser was available this session (headless Chromium could not 
 - https://fairfaxcounty.bonfirehub.com/portal/?tab=openOpportunities (same Angular SPA shell pattern)
 - https://flyri.com/riac/procurement/ ("Active RFPs" table is AJAX-loaded ninja_table plus a React/OpenGov iframe; no listing text in raw HTML)
 - https://fortworthtexas.bonfirehub.com/portal/?tab=openOpportunities (same Angular SPA shell pattern)
-- https://biddingo.com/soundtransit (Angular SPA shell, `<app-root>`, no server-rendered opportunity content)
 
 Note: the Bonfire (`bonfirehub.com`/`.ca`) platform was assumed server-rendered based on earlier sessions' `?tab=openOpportunities` pages, but this batch found it inconsistent — some instances (bernco, bgca, ggbhtd, habc, homesa — see `easily_scrapable.md`) expose a public JSON API (`/PublicPortal/getOpenPublicOpportunitiesSectionData`) that returns real data even though the initial HTML is a JS template shell, while others tested here returned no accessible data at all through that same approach. Treat each Bonfire subdomain individually rather than assuming platform-wide behavior.
 
@@ -404,7 +398,6 @@ No new qualifying RFP saved: candidate keyword hits either lacked a confirmable 
 - https://onlineservices.osc.state.ny.us/Enrollment/login?17
 - https://account.bonfirehub.com/login?flow=e128e6d0-9c89-447a-a993-8965998b25cf
 - https://waukeshacounty.bonfirehub.com/opportunities/144594
-- https://sms-nola-prd.inforcloudsuite.com/fsm/SupplyManagementSupplier/page/XiSupplyManagementSupplierPage?csk.SupplierGroup=100
 - https://www.cdta.org/node/15813/register
 - https://vrapp.vendorregistry.com/Account/LogOn
 - https://vrapp.vendorregistry.com/Bids/View/BidsList?BuyerId=c5e9d3e7-b8e0-4e36-bcab-8db00d18d769
@@ -427,7 +420,6 @@ No new qualifying RFP saved: candidate keyword hits either lacked a confirmable 
 - https://access.alberta.ca/auth/realms/41898876-5358-402d-aae5-eee17a413de5/protocol/openid-connect/auth?client_id=apc-app&redirect_uri=https%3A%2F%2Fpurchasing.alberta.ca%2Fauth-callback&response_type=code&scope=openid&state=bbfd4bd389cb423a98165473274390b5&code_challenge=7gPvK1m6Ml4-FdLaOsGEF5qqfo6D4i1z5YQag7pazSY&code_challenge_method=S256&response_mode=query&apc_target=supplier
 - http://www.scsk12.org/procurement/bids
 - https://baltimorecounty.prismcompliance.com/
-- https://biddingo.com/soundtransit
 - https://apps.ideal-logic.com/uopcs
 - https://baltimorecity.diversitycompliance.com/FrontPage/VendorMain.asp?XID=2708
 - https://caleprocure.ca.gov/pages/Events-BS3/event-search.aspx
@@ -486,12 +478,10 @@ No new qualifying RFP saved: candidate keyword hits either lacked a confirmable 
 - https://vendors.planetbids.com/portal/17950/login#
 - https://vendors.planetbids.com/portal/16151/vp/vp-home
 - https://vendors.planetbids.com/portal/22078/portal-home
-- https://vendors.planetbids.com/portal/14599/bo/bo-search
 - https://vendors.planetbids.com/portal/16151/portal-home
 - https://vendors.planetbids.com/portal/17950/login
 - https://vendors.planetbids.com/portal/16725/login
 - https://vendors.planetbids.com/portal/20314/portal-home
-- https://vendors.planetbids.com/portal/23532/bo/bo-search
 - https://vendors.planetbids.com/portal/20134/portal-home
 - https://vendors.planetbids.com/portal/24103/portal-home
 - https://vendors.planetbids.com/portal/20136/vp/vp-home
@@ -520,7 +510,6 @@ No new qualifying RFP saved: candidate keyword hits either lacked a confirmable 
 - https://vendors.planetbids.com/portal/68007/portal-home
 - https://vendor.purchasingconnection.ca/default.aspx
 - https://www.bidnetdirect.com/private/supplier/solicitations/search
-- https://vendors.planetbids.com/portal/45619/bo/bo-search
 - https://vss.ky.gov/vssprod-ext/Advantage4
 - https://vss.ky.gov/vssprod-ext/Advantage4?openDoc=openDoc&DocumentCode=RFP&DepartmentCode=415&DocumentID=2600000199&DocumentVersNo=2&targetView=ammendHistoryView&Destination=pSolication
 - https://www.beaconbid.com/solicitations/city-of-houston/121f4067-fb3a-4d30-85b9-ea6a6cafe989/contingent-labor-services-all-categories?token=supplier-login.ObiU4vtGsc_vRNVc-a87JReydRqhQP07ozrco4z95xclrg1KaW517ezRNB5QzTvK8dS9z_wfmREHNc6qRuGr-uHTYI229n9X2AhzK2_xmpo1LIlDsnrcN9YzPY9tkrWfy3EN_v3vttW09t3yqiaBnArwIvYLa3JnzE4G9B1giu5p7FuxEHf2iImOzrCy7TDIptzKNwKUivDO0G3DxgJ4Yz43Iz6gCzrsPGyOdGXCJV9Qg29rKw2IN4_Nw5d1czIABi6VfJW2RJtyEc02dHo1amlJHrAnTsWOtrQ8zz6lolxc5u8OanNPWUJnmTMDrOPoY-3_mtuNxCYeyzX2seLpWEfkAtq1AbX1X_Xb-492Ng&eid=bc055432-0873-482a-98b8-0490d2821dc8

@@ -1,0 +1,35 @@
+# Sydc Outpatient Services
+
+#2026-11-23
+rfp name: Sydc Outpatient Services
+
+- **RFP / Solicitation Number:** 6100066815
+- **Agency / Organization:** Commonwealth of Pennsylvania – Department of Human Services "prior DPW"
+- **Posted Date:** 11/20/2026
+- **Issue / Start Date:** 11/23/2026
+- **End / Closing Date:** 12/14/2026 9:00:00 AM
+- **Due Date:** 12/14/2026 9:00:00 AM
+- **Question Submission Due Date:** Not available
+- **POC / Buyer:** Jay Jackson
+- **Location:** Pennsylvania – Multiple
+- **Solicitation Type:** IFB
+- **Match Status:** Unmatched
+- **Matched Keywords:** None
+- **NAICS / NIGP / UNSPSC Codes:** Not available
+- **Source URL:** https://www.emarketplace.state.pa.us/Search.aspx
+- **Retrieved:** 2026-11-23 (UTC)
+
+## Description
+
+The Department Of Human Services ...
+
+Listing status at retrieval: Open (amended 11/20/2026).
+
+## Relevance
+
+Unmatched. This solicitation is for Sydc Outpatient Services — goods or non-IT services. After reviewing the listing title, description, no approved keyword (IT services, staffing, IT/management/business consulting, data/document services, software support, networking, administrative support) or IT/staffing NAICS/NIGP/UNSPSC code genuinely describes the work, so it is recorded as an out-of-scope finding.
+
+## Source
+
+- Official source: https://www.emarketplace.state.pa.us/Search.aspx
+- Listing page: https://www.emarketplace.state.pa.us/Search.aspx (PA eMarketplace)
